@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\capadatos\\tipomedicamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\tipomedicamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\capaentidad\\tipomedicamentocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\tipomedicamentocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\miprimeraappmvc\\wwwroot\\js\\generico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\generico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\miprimeraappmvc\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\miprimeraappmvc\\controllers\\tipomedicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\controllers\\tipomedicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\capanegocios\\tipomedicamentobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\tipomedicamentobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\miprimeraappmvc\\views\\tipomedicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\tipomedicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\downloads\\webmvc\\miprimeraappmvc\\miprimeraappmvc\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T14:12:23.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TipoMedicamentoCLS.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaEntidad\\TipoMedicamentoCLS.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\TipoMedicamentoCLS.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaEntidad\\TipoMedicamentoCLS.cs",
+              "RelativeToolTip": "CapaEntidad\\TipoMedicamentoCLS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T02:31:20.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TipoMedicamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Controllers\\TipoMedicamentoController.cs",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Controllers\\TipoMedicamentoController.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Controllers\\TipoMedicamentoController.cs",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Controllers\\TipoMedicamentoController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T02:15:00.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoMedicamentoBL.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaNegocios\\TipoMedicamentoBL.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\TipoMedicamentoBL.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaNegocios\\TipoMedicamentoBL.cs",
+              "RelativeToolTip": "CapaNegocios\\TipoMedicamentoBL.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T02:14:27.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Views\\TipoMedicamento\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\TipoMedicamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\Views\\TipoMedicamento\\Index.cshtml",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\TipoMedicamento\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T00:56:09.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tipoMedicamento.js",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\wwwroot\\js\\tipoMedicamento.js",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\tipoMedicamento.js",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\wwwroot\\js\\tipoMedicamento.js",
+              "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\tipoMedicamento.js",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwDkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-23T23:40:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoMedicamentoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaDatos\\TipoMedicamentoDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\TipoMedicamentoDAL.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\CapaDatos\\TipoMedicamentoDAL.cs",
+              "RelativeToolTip": "CapaDatos\\TipoMedicamentoDAL.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T23:19:11.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "generico.js",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
+              "ToolTip": "C:\\Users\\YALEDAPC\\Downloads\\WebMVC\\MiPrimeraAppMVC\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
+              "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowJcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-23T23:17:47.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
