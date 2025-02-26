@@ -1,0 +1,11 @@
+USE [AlquilerVehiculos]
+GO
+
+INSERT INTO [dbo].[Vehiculos] ([Marca], [Modelo], [Año], [Precio], [Estado])  
+VALUES  
+    ('Toyota', 'Rav4', 2023, 75.99, 'Disponible'),  
+    ('Hyundai', 'Tucson', 2022, 68.50, 'Alquilado'),  
+    ('Ford', 'Explorer', 2021, 85.00, 'Disponible'),  
+    ('Chevrolet', 'Malibu', 2020, 55.75, 'Mantenimiento'),  
+    ('Nissan', 'Versa', 2023, 48.30, 'Disponible')  
+GO

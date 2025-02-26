@@ -44,3 +44,19 @@ C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaDatos\obj\Debug\net9.0\Ca
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaDatos\obj\Debug\net9.0\refint\CapaDatos.dll
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaDatos\obj\Debug\net9.0\CapaDatos.pdb
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaDatos\obj\Debug\net9.0\ref\CapaDatos.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\bin\Debug\net9.0\CapaDatos.deps.json
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\bin\Debug\net9.0\CapaDatos.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\bin\Debug\net9.0\CapaDatos.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.AssemblyInfo.cs
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.sourcelink.json
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.csproj.Up2Date
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\refint\CapaDatos.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\CapaDatos.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaDatos\obj\Debug\net9.0\ref\CapaDatos.dll

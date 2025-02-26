@@ -1,0 +1,1 @@
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\tipoMedicamento.js

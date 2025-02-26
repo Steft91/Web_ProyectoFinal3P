@@ -84,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1425"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 14:18:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/tipoMedicamento.3ywc7ache6.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tipoMedicamento.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/vehiculos.g61jsji4rr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\vehiculos.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ywc7ache6"},{"Name":"integrity","Value":"sha256-ywCkcV8abPRkjPLMSy2F5uLpZGcE64U9iJpIjUGkPz0="},{"Name":"label","Value":"_content/MiPrimeraAppMVC/js/tipoMedicamento.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1960"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ywCkcV8abPRkjPLMSy2F5uLpZGcE64U9iJpIjUGkPz0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 15:46:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g61jsji4rr"},{"Name":"integrity","Value":"sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN\u002BWBHBl8k="},{"Name":"label","Value":"_content/MiPrimeraAppMVC/js/vehiculos.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1789"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN\u002BWBHBl8k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 15:46:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/tipoMedicamento.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tipoMedicamento.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/vehiculos.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\vehiculos.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ywCkcV8abPRkjPLMSy2F5uLpZGcE64U9iJpIjUGkPz0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1960"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ywCkcV8abPRkjPLMSy2F5uLpZGcE64U9iJpIjUGkPz0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 15:46:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN\u002BWBHBl8k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1789"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN\u002BWBHBl8k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 15:46:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

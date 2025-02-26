@@ -32,3 +32,15 @@ C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaEntidad\obj\Debug\net9.0\
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
 C:\Users\YALEDAPC\Downloads\WebMVC\MiPrimeraAppMVC\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\bin\Debug\net9.0\CapaEntidad.deps.json
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.sourcelink.json
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll
