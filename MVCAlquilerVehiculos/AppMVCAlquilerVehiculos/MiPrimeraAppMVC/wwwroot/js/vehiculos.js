@@ -22,7 +22,7 @@ async function listarVehiculos() {
         propiedades: ["idVehiculo", "marca", "modelo", "anio", "precio", "estado"],
         editar : true,
         eliminar: true,
-        propiedadId: "idVehiculo"
+        propiedadId: "idVehiculos"
     }
 
     pintar(objVehiculos);
@@ -39,28 +39,53 @@ function Buscar() {
 //    set("txtTipoMedicamento", "");
 //}
 
+const idVehiculosInput = document.getElementById("idVehiculos");
+const guardarBtn = document.getElementById("buttonGuardar");
 
 function GuardarVehiculos() {
-    let forma = document.getElementById("frmGuardarVehiculos");
+    const frm = new FormData(document.getElementById("frmGuardarVehiculos"));
+    const callback = (res) => {
+        const resInt = parseInt(res);
+        if (resInt == 1) {
+            listarVehiculos();
+            LimpiarDatos("frmGuardarVehiculos");
+        }
+    }
 
-    let frm = new FormData(forma);
-
-    fetchPost("Vehiculos/GuardarVehiculos", "text", frm, function (data) {
-        listarTipoMedicamento();
-        LimpiarDatos("frmGuardarVehiculos");
-    })
+    if (idVehiculosInput.value != "") {
+        fetchPut("Vehiculos/GuardarVehiculos", "text", frm, callback);
+    } else {
+        fetchPost("Vehiculos/GuardarVehiculos", "text", frm, callback);
+    }
 }
 
 function LimpiarVehiculos() {
     LimpiarDatos("frmGuardarVehiculos");
+    guardarBtn.innerText = "Guardar";
+
 }
 
 function Editar(id) {
-    recuperarGenerico("Vehiculos/recuperarVehiculos/?idVehiculo=" + id,"frmGuardarVehiculos")
-    //fetchGet("Vehiculos/recuperarTipoMedicamento/?idTipoMedicamento=" + id, "json", function (data) {
-    //    setN("idTipoMedicamento", data.idTipoMedicamento)
-    //    setN("nombre", data.nombre)
-    //    setN("descripcion", data.descripcion)
+    guardarBtn.innerText = "Actualizar";
+    //recuperarGenerico("TipoMedicamento/recuperarTipoMedicamento/?idTipoMedicamento=" + id,"frmGuardarTipoMedicamento");
+    fetchGet("Vehiculos/recuperarVehiculos/?idVehiculos=" + id, "json", function (data) {
+        setN("idVehiculos", data.idVehiculo)
+        setN("marca", data.marca)
+        setN("modelo", data.modelo)
+        setN("anio", data.anio)
+        setN("precio", data.precio)
+        setN("estado", data.estado)
 
-    //});
+    });
+}
+
+function Eliminar(id) {
+    const deleteAns = confirm("¿Está seguro de eliminar este dato?");
+    if (!deleteAns) return;
+
+    fetchDelete("Vehiculos/recuperarVehiculos/?idVehiculos=" + id, "text", (res) => {
+        if (parseInt(res) == 1) {
+            listarVehiculos();
+        }
+    });
 }

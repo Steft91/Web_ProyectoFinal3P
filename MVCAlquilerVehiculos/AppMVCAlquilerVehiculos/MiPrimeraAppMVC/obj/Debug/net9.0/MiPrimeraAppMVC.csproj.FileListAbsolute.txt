@@ -1246,11 +1246,9 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\scopedcss\projectbundle\MiPrimeraAppMVC.bundle.scp.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\q1406m4bll-b9sayid5wm.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\8unl7ph726-61n19gt1b8.gz
-C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\sastoax6v2-fe4rdhv6zs.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\bww1c4hx0g-72411lptn6.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\6esga84kj4-844ha8x8xh.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\suztbjvpfj-xtxxf3hu2r.gz
-C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\f3lprzg5zd-0c76mpt6jw.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\qwubg63ca4-bqjiyaj88i.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\eto60rjl7l-c2jlpeoesf.gz
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\v4tic83650-erw9l3u2r3.gz
@@ -1363,4 +1361,6 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\MiPrimeraAppMVC.pdb
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\MiPrimeraAppMVC.genruntimeconfig.cache
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\ref\MiPrimeraAppMVC.dll
-C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\3i54hbt0es-g61jsji4rr.gz
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\sastoax6v2-djmnokxtxv.gz
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\3i54hbt0es-7xqhgmslgp.gz
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\obj\Debug\net9.0\compressed\jefq82zi7j-mc13su8jrv.gz

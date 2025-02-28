@@ -27,14 +27,14 @@ namespace MiPrimeraAppMVC.Controllers
         public int GuardarVehiculos(VehiculosCLS oVehiculosCLS)
         {
             VehiculosBL obj = new VehiculosBL();
-            var formValues = Request.Form;
+            //var formValues = Request.Form;
 
 
-            foreach (var key in formValues.Keys)
-            {
-                var value = formValues[key];
-                Console.WriteLine($"{key}: {value}");
-            }
+            //foreach (var key in formValues.Keys)
+            //{
+            //    var value = formValues[key];
+            //    Console.WriteLine($"{key}: {value}");
+            //}
             return obj.GuardarVehiculos(oVehiculosCLS);
 
         }
@@ -44,6 +44,11 @@ namespace MiPrimeraAppMVC.Controllers
             VehiculosBL obj = new VehiculosBL();
             return obj.recuperarVehiculos(idVehiculos);
 
+        }
+        public int EliminarVehiculos(int idVehiculos)
+        {
+            VehiculosDAL obj = new VehiculosDAL();
+            return obj.EliminarVehiculos(idVehiculos);
         }
 
     }

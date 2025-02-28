@@ -25,9 +25,14 @@ namespace CapaNegocios
         }
         public VehiculosCLS recuperarVehiculos(int idVehiculos)
         {
-            VehiculosBL obj = new VehiculosBL();
+            VehiculosDAL obj = new VehiculosDAL();
             return obj.recuperarVehiculos(idVehiculos);
 
+        }
+        public int EliminarVehiculos(int idVehiculos)
+        {
+            VehiculosDAL obj = new VehiculosDAL();
+            return obj.EliminarVehiculos(idVehiculos);
         }
 
     }

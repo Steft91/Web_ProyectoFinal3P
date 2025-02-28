@@ -3,56 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capadatos\\vehiculosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\vehiculosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\vehiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\vehiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capanegocios\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\clientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\wwwroot\\js\\vehiculos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\vehiculos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capadatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capaentidad\\vehiculoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\vehiculoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capanegocios\\vehiculosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\vehiculosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\vehiculos\\sinmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\vehiculos\\sinmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DC63DC6-A384-4460-A8BE-9A8C494A606F}|CapaPresentaci\u00F3n\\CapaPresentaci\u00F3n.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capapresentaci\u00F3n\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DC63DC6-A384-4460-A8BE-9A8C494A606F}|CapaPresentaci\u00F3n\\CapaPresentaci\u00F3n.csproj|solutionrelative:capapresentaci\u00F3n\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capaentidad\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\laboratorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\wwwroot\\js\\generico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\generico.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\yaledapc\\4to semestre\\programacionweb\\proyecto3p\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capaentidad\\clientecls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\clientecls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,160 +50,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VehiculosCLS.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\VehiculosCLS.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\VehiculosCLS.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\VehiculosCLS.cs",
-              "RelativeToolTip": "CapaEntidad\\VehiculosCLS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T02:31:20.69Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T14:27:25.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SinMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Vehiculos\\SinMenu.cshtml",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Vehiculos\\SinMenu.cshtml",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Vehiculos\\SinMenu.cshtml",
-              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Vehiculos\\SinMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T14:27:07.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VehiculosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\VehiculosDAL.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\VehiculosDAL.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\VehiculosDAL.cs*",
-              "RelativeToolTip": "CapaDatos\\VehiculosDAL.cs*",
-              "ViewState": "AgIAAFcAAAAAAAAAAAApwGUAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T23:19:11.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\appsettings.json",
-              "RelativeToolTip": "MiPrimeraAppMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-25T14:11:22.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VehiculosController.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\VehiculosController.cs",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Controllers\\VehiculosController.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\VehiculosController.cs",
-              "RelativeToolTip": "MiPrimeraAppMVC\\Controllers\\VehiculosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T02:15:00.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaPresentaci\u00F3n\\Class1.cs",
-              "RelativeDocumentMoniker": "CapaPresentaci\u00F3n\\Class1.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaPresentaci\u00F3n\\Class1.cs",
-              "RelativeToolTip": "CapaPresentaci\u00F3n\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T19:59:09.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VehiculosBL.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\VehiculosBL.cs",
-              "RelativeDocumentMoniker": "CapaNegocios\\VehiculosBL.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\VehiculosBL.cs",
-              "RelativeToolTip": "CapaNegocios\\VehiculosBL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T02:14:27.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
-              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T00:56:09.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "vehiculos.js",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
-              "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-23T23:40:02.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
-              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Sucursal\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T14:12:23.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Laboratorio.cs",
-              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\Laboratorio.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Laboratorio.cs",
-              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\Laboratorio.cs",
-              "RelativeToolTip": "CapaEntidad\\Laboratorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T19:57:51.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "generico.js",
               "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
               "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
               "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowJcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-23T23:17:47.389Z"
+              "WhenOpened": "2025-02-28T00:40:45.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T23:05:35.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T23:05:16.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\ClienteController.cs*",
+              "RelativeToolTip": "MiPrimeraAppMVC\\Controllers\\ClienteController.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:05:09.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cliente.js",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+              "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+              "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-27T23:05:00.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteBL.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\ClienteBL.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\ClienteBL.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\ClienteBL.cs",
+              "RelativeToolTip": "CapaNegocios\\ClienteBL.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:04:51.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\ClienteDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\ClienteDAL.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\ClienteDAL.cs",
+              "RelativeToolTip": "CapaDatos\\ClienteDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:04:32.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteCLS.cs",
+              "DocumentMoniker": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\ClienteCLS.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\ClienteCLS.cs",
+              "ToolTip": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\ClienteCLS.cs",
+              "RelativeToolTip": "CapaEntidad\\ClienteCLS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:00:56.959Z",
+              "EditorCaption": ""
             }
           ]
         }

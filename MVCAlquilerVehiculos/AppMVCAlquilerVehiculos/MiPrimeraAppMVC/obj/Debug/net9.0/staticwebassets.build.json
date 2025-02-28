@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qC91Y8SkAttSffU+XvPBW0gHQDZRup/Ms7DxWrtWo5Q=",
+  "Hash": "FcjZvY/+JAfmUrA3+MdhqL+AEGPPmLHfTwPM8PI/CWc=",
   "Source": "MiPrimeraAppMVC",
   "BasePath": "_content/MiPrimeraAppMVC",
   "Mode": "Default",
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-g61jsji4rr.gz",
+      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-7xqhgmslgp.gz",
       "SourceId": "MiPrimeraAppMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MiPrimeraAppMVC",
-      "RelativePath": "js/vehiculos#[.{fingerprint=g61jsji4rr}]?.js.gz",
+      "RelativePath": "js/vehiculos#[.{fingerprint=7xqhgmslgp}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sj4ok4k1uk",
-      "Integrity": "+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM=",
+      "Fingerprint": "16aafodzdh",
+      "Integrity": "+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js"
@@ -878,27 +878,6 @@
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\f3lprzg5zd-0c76mpt6jw.gz",
-      "SourceId": "MiPrimeraAppMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/MiPrimeraAppMVC",
-      "RelativePath": "js/sucursal#[.{fingerprint=0c76mpt6jw}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "4cmmpzmkvi",
-      "Integrity": "lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js"
-    },
-    {
       "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\fdkzjpvdpp-9b4bpgjbx0.gz",
       "SourceId": "MiPrimeraAppMVC",
       "SourceType": "Discovered",
@@ -1086,6 +1065,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jefq82zi7j-mc13su8jrv.gz",
+      "SourceId": "MiPrimeraAppMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MiPrimeraAppMVC",
+      "RelativePath": "js/cliente#[.{fingerprint=mc13su8jrv}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "45rjlkui8b",
+      "Integrity": "2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js"
     },
     {
       "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jesepzk08h-r2l44wjr8p.gz",
@@ -1613,12 +1613,12 @@
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-fe4rdhv6zs.gz",
+      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-djmnokxtxv.gz",
       "SourceId": "MiPrimeraAppMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MiPrimeraAppMVC",
-      "RelativePath": "js/generico#[.{fingerprint=fe4rdhv6zs}]?.js.gz",
+      "RelativePath": "js/generico#[.{fingerprint=djmnokxtxv}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1627,8 +1627,8 @@
       "RelatedAsset": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1btmllvl98",
-      "Integrity": "3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ=",
+      "Fingerprint": "31c0glcfc3",
+      "Integrity": "50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js"
@@ -2285,6 +2285,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+      "SourceId": "MiPrimeraAppMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\",
+      "BasePath": "_content/MiPrimeraAppMVC",
+      "RelativePath": "js/cliente#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mc13su8jrv",
+      "Integrity": "lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cliente.js"
+    },
+    {
       "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
       "SourceId": "MiPrimeraAppMVC",
       "SourceType": "Discovered",
@@ -2299,8 +2320,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fe4rdhv6zs",
-      "Integrity": "+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck=",
+      "Fingerprint": "djmnokxtxv",
+      "Integrity": "2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\generico.js"
@@ -2369,27 +2390,6 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js",
-      "SourceId": "MiPrimeraAppMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\",
-      "BasePath": "_content/MiPrimeraAppMVC",
-      "RelativePath": "js/sucursal#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0c76mpt6jw",
-      "Integrity": "oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\sucursal.js"
-    },
-    {
       "Identity": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
       "SourceId": "MiPrimeraAppMVC",
       "SourceType": "Discovered",
@@ -2404,8 +2404,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g61jsji4rr",
-      "Integrity": "uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k=",
+      "Fingerprint": "7xqhgmslgp",
+      "Integrity": "dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vehiculos.js"
@@ -5172,13 +5172,13 @@
       ]
     },
     {
-      "Route": "js/generico.fe4rdhv6zs.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-fe4rdhv6zs.gz",
+      "Route": "js/cliente.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jefq82zi7j-mc13su8jrv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000565930956"
+          "Quality": "0.001239157373"
         }
       ],
       "ResponseHeaders": [
@@ -5188,15 +5188,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1766"
+          "Value": "806"
         },
         {
           "Name": "ETag",
-          "Value": "\"3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ=\""
+          "Value": "\"2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/cliente.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/cliente.js.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jefq82zi7j-mc13su8jrv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo="
+        }
+      ]
+    },
+    {
+      "Route": "js/cliente.mc13su8jrv.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jefq82zi7j-mc13su8jrv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001239157373"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "806"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5216,13 +5353,174 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck=\""
+          "Value": "W/\"lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fe4rdhv6zs"
+          "Value": "mc13su8jrv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cliente.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/cliente.mc13su8jrv.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mc13su8jrv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cliente.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lj2tOOIk4Q0G65cFMLFWTtV+mkSPnJun84SHzQ0kjnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/cliente.mc13su8jrv.js.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\jefq82zi7j-mc13su8jrv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mc13su8jrv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cliente.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IoqJt3bnLiIEBO9PGPZQCmKvQrEuE14vpLQAviTzfo="
+        }
+      ]
+    },
+    {
+      "Route": "js/generico.djmnokxtxv.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-djmnokxtxv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000524383849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1906"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "djmnokxtxv"
         },
         {
           "Name": "label",
@@ -5230,12 +5528,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck="
+          "Value": "sha256-2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ="
         }
       ]
     },
     {
-      "Route": "js/generico.fe4rdhv6zs.js",
+      "Route": "js/generico.djmnokxtxv.js",
       "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5245,7 +5543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6226"
+          "Value": "7691"
         },
         {
           "Name": "Content-Type",
@@ -5253,11 +5551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck=\""
+          "Value": "\"2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5267,7 +5565,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fe4rdhv6zs"
+          "Value": "djmnokxtxv"
         },
         {
           "Name": "label",
@@ -5275,13 +5573,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck="
+          "Value": "sha256-2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ="
         }
       ]
     },
     {
-      "Route": "js/generico.fe4rdhv6zs.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-fe4rdhv6zs.gz",
+      "Route": "js/generico.djmnokxtxv.js.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-djmnokxtxv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5290,7 +5588,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1766"
+          "Value": "1906"
         },
         {
           "Name": "Content-Type",
@@ -5298,11 +5596,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ=\""
+          "Value": "\"50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5320,7 +5618,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fe4rdhv6zs"
+          "Value": "djmnokxtxv"
         },
         {
           "Name": "label",
@@ -5328,18 +5626,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ="
+          "Value": "sha256-50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4="
         }
       ]
     },
     {
       "Route": "js/generico.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-fe4rdhv6zs.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-djmnokxtxv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000565930956"
+          "Quality": "0.000524383849"
         }
       ],
       "ResponseHeaders": [
@@ -5349,15 +5647,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1766"
+          "Value": "1906"
         },
         {
           "Name": "ETag",
-          "Value": "\"3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ=\""
+          "Value": "\"50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5377,13 +5675,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck=\""
+          "Value": "W/\"2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck="
+          "Value": "sha256-2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ="
         }
       ]
     },
@@ -5398,7 +5696,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6226"
+          "Value": "7691"
         },
         {
           "Name": "Content-Type",
@@ -5406,11 +5704,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck=\""
+          "Value": "\"2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5420,13 +5718,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+S/vSvpFT0PEZT3a9dOKsOP5SGVCgbn6D2YUrpjbjck="
+          "Value": "sha256-2QmIfGRGpw88s/40QKrI8zFnnk4HKZEzz3P1T7shNUQ="
         }
       ]
     },
     {
       "Route": "js/generico.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-fe4rdhv6zs.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\sastoax6v2-djmnokxtxv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5435,7 +5733,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1766"
+          "Value": "1906"
         },
         {
           "Name": "Content-Type",
@@ -5443,11 +5741,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ=\""
+          "Value": "\"50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 15:47:44 GMT"
+          "Value": "Wed, 26 Feb 2025 22:36:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5465,7 +5763,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3RbBXDiG21tcpO/IpLVGZP5KLZ7V0YwPoXIcDeEeZEQ="
+          "Value": "sha256-50CMW0JqIUVe3V+84EEL0VZg/ssx9BSB9m4c0ilQcK4="
         }
       ]
     },
@@ -6364,13 +6662,13 @@
       ]
     },
     {
-      "Route": "js/sucursal.0c76mpt6jw.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\f3lprzg5zd-0c76mpt6jw.gz",
+      "Route": "js/vehiculos.7xqhgmslgp.js",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-7xqhgmslgp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002070393375"
+          "Quality": "0.001193317422"
         }
       ],
       "ResponseHeaders": [
@@ -6380,15 +6678,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "482"
+          "Value": "837"
         },
         {
           "Name": "ETag",
-          "Value": "\"lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc=\""
+          "Value": "\"+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6408,311 +6706,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=\""
+          "Value": "W/\"dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0c76mpt6jw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/sucursal.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0="
-        }
-      ]
-    },
-    {
-      "Route": "js/sucursal.0c76mpt6jw.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1425"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0c76mpt6jw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/sucursal.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0="
-        }
-      ]
-    },
-    {
-      "Route": "js/sucursal.0c76mpt6jw.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\f3lprzg5zd-0c76mpt6jw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "482"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0c76mpt6jw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/sucursal.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc="
-        }
-      ]
-    },
-    {
-      "Route": "js/sucursal.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\f3lprzg5zd-0c76mpt6jw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002070393375"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "482"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0="
-        }
-      ]
-    },
-    {
-      "Route": "js/sucursal.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1425"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oJQfEX2r8vM2TOE3nzGfrJa5leJyPrnCJeHde60MjS0="
-        }
-      ]
-    },
-    {
-      "Route": "js/sucursal.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\f3lprzg5zd-0c76mpt6jw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "482"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 14:18:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lJ9UEZ9Caa9yVfv6m7NkNFTHv2Dr5k1jbFkr53v8vcc="
-        }
-      ]
-    },
-    {
-      "Route": "js/vehiculos.g61jsji4rr.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-g61jsji4rr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001644736842"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "607"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g61jsji4rr"
+          "Value": "7xqhgmslgp"
         },
         {
           "Name": "label",
@@ -6720,12 +6720,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k="
+          "Value": "sha256-dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U="
         }
       ]
     },
     {
-      "Route": "js/vehiculos.g61jsji4rr.js",
+      "Route": "js/vehiculos.7xqhgmslgp.js",
       "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6735,7 +6735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1789"
+          "Value": "2616"
         },
         {
           "Name": "Content-Type",
@@ -6743,11 +6743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k=\""
+          "Value": "\"dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6757,7 +6757,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g61jsji4rr"
+          "Value": "7xqhgmslgp"
         },
         {
           "Name": "label",
@@ -6765,13 +6765,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k="
+          "Value": "sha256-dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U="
         }
       ]
     },
     {
-      "Route": "js/vehiculos.g61jsji4rr.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-g61jsji4rr.gz",
+      "Route": "js/vehiculos.7xqhgmslgp.js.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-7xqhgmslgp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6780,7 +6780,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "837"
         },
         {
           "Name": "Content-Type",
@@ -6788,11 +6788,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM=\""
+          "Value": "\"+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6810,7 +6810,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g61jsji4rr"
+          "Value": "7xqhgmslgp"
         },
         {
           "Name": "label",
@@ -6818,18 +6818,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM="
+          "Value": "sha256-+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI="
         }
       ]
     },
     {
       "Route": "js/vehiculos.js",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-g61jsji4rr.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-7xqhgmslgp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001644736842"
+          "Quality": "0.001193317422"
         }
       ],
       "ResponseHeaders": [
@@ -6839,15 +6839,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "837"
         },
         {
           "Name": "ETag",
-          "Value": "\"+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM=\""
+          "Value": "\"+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6867,13 +6867,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k=\""
+          "Value": "W/\"dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k="
+          "Value": "sha256-dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U="
         }
       ]
     },
@@ -6888,7 +6888,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1789"
+          "Value": "2616"
         },
         {
           "Name": "Content-Type",
@@ -6896,11 +6896,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k=\""
+          "Value": "\"dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6910,13 +6910,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uHQ0o6MpU29CSGYNh6Md6u7b4mcybAQsZhN+WBHBl8k="
+          "Value": "sha256-dTVazq3G+nHhm0ohuYKpbGYW9YClcWiO9l1nGCWKQ6U="
         }
       ]
     },
     {
       "Route": "js/vehiculos.js.gz",
-      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-g61jsji4rr.gz",
+      "AssetFile": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\obj\\Debug\\net9.0\\compressed\\3i54hbt0es-7xqhgmslgp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6925,7 +6925,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "837"
         },
         {
           "Name": "Content-Type",
@@ -6933,11 +6933,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM=\""
+          "Value": "\"+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 15:46:24 GMT"
+          "Value": "Wed, 26 Feb 2025 22:55:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6955,7 +6955,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+C6aN8iX15GXSPg6QLuNjBMJddsXWnkzybPregRRFgM="
+          "Value": "sha256-+bCOpR52sSxwqd4dcz7liw/LLT14XfmB8I36ONRCaTI="
         }
       ]
     },

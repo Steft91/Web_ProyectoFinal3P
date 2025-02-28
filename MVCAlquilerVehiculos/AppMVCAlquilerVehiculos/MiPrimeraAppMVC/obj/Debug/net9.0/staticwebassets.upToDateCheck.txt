@@ -37,7 +37,6 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\v4-font-face.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\sucursal.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\fontawesome.min.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -47,6 +46,7 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery\dist\jquery.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\cliente.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\fontawesome.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\fontawesome.min.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\svg-with-js.min.css
@@ -102,11 +102,11 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\fontawesome.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\cliente.js
 wwwroot\js\generico.js
 wwwroot\js\laboratorio.js
 wwwroot\js\medicamento.js
 wwwroot\js\site.js
-wwwroot\js\sucursal.js
 wwwroot\js\vehiculos.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

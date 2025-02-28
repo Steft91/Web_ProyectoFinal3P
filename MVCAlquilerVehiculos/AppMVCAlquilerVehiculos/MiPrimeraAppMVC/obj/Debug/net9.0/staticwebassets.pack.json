@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\cliente.js",
+      "PackagePath": "staticwebassets\\js\\cliente.js"
+    },
+    {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
       "PackagePath": "staticwebassets\\js\\generico.js"
     },
@@ -27,10 +31,6 @@
     {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\sucursal.js",
-      "PackagePath": "staticwebassets\\js\\sucursal.js"
     },
     {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\vehiculos.js",

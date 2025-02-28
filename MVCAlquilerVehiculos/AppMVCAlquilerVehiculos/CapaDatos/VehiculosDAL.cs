@@ -10,9 +10,33 @@ namespace CapaDatos
 {
     public class VehiculosDAL : CadenaDAL
     {
+        public int EliminarVehiculos(int idVehiculos)
+        {
+            int rpta = 0;
+            using (SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("uspEliminarVehiculos", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@idVehiculos", idVehiculos);
+                        rpta = cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    cn.Close();
+                }
+            }
+            return rpta;
+        }
+
+
         public VehiculosCLS recuperarVehiculos(int idVehiculos)
         {
-            VehiculosCLS oVehiculosCLS = null;
+            VehiculosCLS oVehiculosCLS = new VehiculosCLS();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -22,7 +46,7 @@ namespace CapaDatos
                     using (SqlCommand cmd = new SqlCommand("uspRecuperarVehiculos", cn))
                     {
                         cmd.CommandType = CommandType.Text;
-                        cmd.Parameters.AddWithValue("@iidVehiculos", idVehiculos);
+                        cmd.Parameters.AddWithValue("@idVehiculos", idVehiculos);
 
                         using (SqlDataReader dr = cmd.ExecuteReader())
                             if (dr != null) {
@@ -36,15 +60,12 @@ namespace CapaDatos
                                     oVehiculosCLS.precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4);
                                     oVehiculosCLS.estado = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
                                 }
-                                cn.Close();
                                 }
                             }                           
                         }
                 catch (Exception)
                 {
                     cn.Close();
-                    oVehiculosCLS = null;
-                    throw;
                 }
             }
             return oVehiculosCLS;
@@ -76,6 +97,7 @@ namespace CapaDatos
                 }
                 return rpta;
         }
+        
         public List<VehiculosCLS> listarVehiculos()
         {
             List<VehiculosCLS> lista = new List<VehiculosCLS>();
