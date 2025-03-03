@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Empleado</h1>
+
+<div class="input-group">
+    <input id="txtTipoMedicamento" type="text" class="form-control" onkeyup="filtrarEmpleado()" placeholder="Ingresar tipo medicamento a buscar" aria-label="Recipient's username with two button addons">
+
+</div>
+
+<fieldset>
+    <legend>Guardar Datos</legend>
+    <form id="frmGuardarEmpleado" class="row g-3">
+        <div class="col-md-6">
+            <label for="idEmpleado" class="form-label">Id Empleado</label>
+            <input type="text" class="form-control" name="idEmpleado" id="idEmpleado">
+        </div>
+        <div class="col-md-6">
+            <label for="nombreEmpleado" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombreEmpleado" id="nombreEmpleado">
+        </div>
+        <div class="col-12">
+            <label for="apellidoEmpleado" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellidoEmpleado" name="apellidoEmpleado" placeholder="apellido">
+        </div>
+        <div class="col-md-6">
+            <label for="cargo" class="form-label">Cargo</label>
+            <input type="text" class="form-control" name="cargo" id="cargo" placeholder="cargo">
+        </div>
+        <div class="col-md-6">
+            <label for="telefonoEmpleado" class="form-label">Telefono</label>
+            <input type="text" class="form-control" name="telefonoEmpleado" id="telefonoEmpleado" placeholder="telefonoEmpleado">
+        </div>
+        <div class="col-12">
+            <label for="emailEmpleado" class="form-label">Email</label>
+            <input type="text" class="form-control" id="emailEmpleado" name="emailEmpleado" placeholder="emailEmpleado">
+        </div>
+    </form>
+
+    <div class="row g-3">
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary" onclick="GuardarEmpleado()" id="buttonGuardar">Guardar</button>
+            <button type="button" class="btn btn-danger" onclick="LimpiarEmpleado()">Limpiar</button>
+        </div>
+    </div>
+
+
+
+</fieldset>
+
+<div id="divTable">
+</div>
+
+<script src="~/js/generico.js"></script>
+<script src="~/js/empleado.js"></script>

@@ -1,0 +1,108 @@
+USE [AlquilerVehiculos]
+GO
+
+INSERT INTO [dbo].[Reservas] ([ClienteId], [VehiculoId], [FechaInicio], [FechaFin], [Estado])
+VALUES 
+    (1, 2, '2025-03-01', '2025-03-07', 'Pendiente'),
+    (2, 5, '2025-03-05', '2025-03-10', 'Confirmada'),
+    (3, 1, '2025-03-10', '2025-03-15', 'Cancelada'),
+    (4, 3, '2025-03-15', '2025-03-20', 'Pendiente'),
+    (5, 4, '2025-03-20', '2025-03-25', 'Finalizada');
+GO
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE [dbo].[uspListarReservas]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
+    FROM Reservas;
+END;
+GO
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE [dbo].[uspFiltrarReservas]
+    @ClienteId INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @ClienteId = 0
+        SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
+        FROM Reservas;
+    ELSE
+        SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
+        FROM Reservas
+        WHERE ClienteId = @ClienteId;
+END;
+GO
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE [dbo].[uspGuardarReservas]
+    @Id INT,
+    @ClienteId INT,
+    @VehiculoId INT,
+    @FechaInicio DATE,
+    @FechaFin DATE,
+    @Estado NVARCHAR(20)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Id = 0
+    BEGIN
+        -- Insertar nueva reserva
+        INSERT INTO Reservas (ClienteId, VehiculoId, FechaInicio, FechaFin, Estado)
+        VALUES (@ClienteId, @VehiculoId, @FechaInicio, @FechaFin, @Estado);
+    END
+    ELSE
+    BEGIN
+        -- Actualizar reserva existente
+        UPDATE Reservas
+        SET ClienteId = @ClienteId,
+            VehiculoId = @VehiculoId,
+            FechaInicio = @FechaInicio,
+            FechaFin = @FechaFin,
+            Estado = @Estado
+        WHERE Id = @Id;
+    END
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE [dbo].[uspRecuperarReservas]
+    @Id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
+    FROM Reservas
+    WHERE Id = @Id;
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE [dbo].[uspEliminarReservas]
+    @Id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DELETE FROM Reservas WHERE Id = @Id;
+END;
+GO
+

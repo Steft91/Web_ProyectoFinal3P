@@ -1,0 +1,98 @@
+USE [AlquilerVehiculos]
+GO
+
+-- Insertar 5 datos en la tabla Seguros
+INSERT INTO [dbo].[Seguros] ([ReservaId], [TipoSeguro], [Costo])
+VALUES
+    (1, 'Seguro Básico', 100.00),
+    (2, 'Seguro Completo', 200.00),
+    (3, 'Seguro Todo Riesgo', 250.00),
+    (4, 'Seguro Básico', 150.00),
+    (5, 'Seguro Completo', 220.00);
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE uspEliminarSeguro
+    @idSeguro INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DELETE FROM Seguros WHERE Id = @idSeguro;
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE uspRecuperarSeguro
+    @idSeguro INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT * FROM Seguros WHERE Id = @idSeguro;
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE uspGuardarSeguro
+    @idSeguro INT,
+    @idReserva INT,
+    @tipoSeguro NVARCHAR(50),
+    @costo DECIMAL(10, 2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @idSeguro = 0
+    BEGIN
+        -- Insertar nuevo pago
+        INSERT INTO Seguros(ReservaId, TipoSeguro, Costo)
+        VALUES (@idReserva, @tipoSeguro, @costo);
+    END
+    ELSE
+    BEGIN
+        -- Actualizar pago existente
+        UPDATE Seguros
+        SET ReservaId = @idReserva,
+			TipoSeguro = @tipoSeguro, 
+			Costo = @costo
+        WHERE Id = @idSeguro;
+    END
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE uspFiltrarSeguros
+    @tipoSeguro NVARCHAR(50)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @tipoSeguro = ''
+        SELECT * FROM Seguros;
+    ELSE
+        SELECT * FROM Seguros WHERE TipoSeguro LIKE '%' + @tipoSeguro + '%';
+END;
+GO
+
+
+USE [AlquilerVehiculos]
+GO
+
+CREATE PROCEDURE uspListarSeguros
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT * FROM Seguros;
+END;
+GO

@@ -17,16 +17,28 @@
       "PackagePath": "staticwebassets\\js\\cliente.js"
     },
     {
+      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\empleado.js",
+      "PackagePath": "staticwebassets\\js\\empleado.js"
+    },
+    {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\generico.js",
       "PackagePath": "staticwebassets\\js\\generico.js"
     },
     {
-      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\laboratorio.js",
-      "PackagePath": "staticwebassets\\js\\laboratorio.js"
-    },
-    {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\medicamento.js",
       "PackagePath": "staticwebassets\\js\\medicamento.js"
+    },
+    {
+      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\pago.js",
+      "PackagePath": "staticwebassets\\js\\pago.js"
+    },
+    {
+      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\reserva.js",
+      "PackagePath": "staticwebassets\\js\\reserva.js"
+    },
+    {
+      "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\seguro.js",
+      "PackagePath": "staticwebassets\\js\\seguro.js"
     },
     {
       "Id": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\site.js",

@@ -26,7 +26,6 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\v4-shims.min.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\laboratorio.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\sprites\brands.svg
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\sprites\regular.svg
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\solid.min.css
@@ -38,6 +37,7 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\v4-font-face.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\fontawesome.min.js
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\seguro.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
@@ -54,6 +54,7 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\conflict-detection.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\css\brands.min.css
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\pago.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\font-awesome\js\all.min.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
@@ -89,6 +90,8 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\empleado.js
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\js\reserva.js
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\MiPrimeraAppMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
@@ -103,9 +106,12 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\cliente.js
+wwwroot\js\empleado.js
 wwwroot\js\generico.js
-wwwroot\js\laboratorio.js
 wwwroot\js\medicamento.js
+wwwroot\js\pago.js
+wwwroot\js\reserva.js
+wwwroot\js\seguro.js
 wwwroot\js\site.js
 wwwroot\js\vehiculos.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

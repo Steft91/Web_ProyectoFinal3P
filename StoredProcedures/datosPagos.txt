@@ -1,0 +1,69 @@
+USE [AlquilerVehiculos]
+GO
+
+INSERT INTO [dbo].[Pagos] ([ReservaId], [Monto], [MetodoPago], [FechaPago])
+VALUES 
+    (1, 250.00, 'Tarjeta de Crédito', '2025-02-02'),
+    (2, 320.50, 'Tarjeta de Crédito', '2025-02-06'),
+    (3, 150.75, 'Transferencia', '2025-02-11'),
+    (4, 400.00, 'Tarjeta de Débito', '2025-02-16'),
+    (5, 275.90, 'Transferencia', '2025-02-21');
+GO
+
+
+CREATE PROCEDURE uspListarPagos
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT * FROM Pagos;
+END;
+
+CREATE PROCEDURE uspFiltrarPagos
+    @MetodoPago NVARCHAR(50)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @MetodoPago = ''
+        SELECT * FROM Pagos;
+    ELSE
+        SELECT * FROM Pagos WHERE MetodoPago LIKE '%' + @MetodoPago + '%';
+END;
+
+
+CREATE PROCEDURE uspGuardarPago
+    @IdPago INT,
+    @ReservaId INT,
+    @Monto DECIMAL(10,2),
+    @MetodoPago NVARCHAR(50),
+    @FechaPago DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @IdPago = 0
+        -- Insertar nuevo pago
+        INSERT INTO Pagos (ReservaId, Monto, MetodoPago, FechaPago)
+        VALUES (@ReservaId, @Monto, @MetodoPago, @FechaPago);
+    ELSE
+        -- Actualizar pago existente
+        UPDATE Pagos
+        SET ReservaId = @ReservaId, Monto = @Monto, MetodoPago = @MetodoPago, FechaPago = @FechaPago
+        WHERE Id = @IdPago;
+END;
+
+CREATE PROCEDURE uspRecuperarPago
+    @IdPago INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT * FROM Pagos WHERE Id = @IdPago;
+END;
+
+CREATE PROCEDURE uspEliminarPago
+    @IdPago INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DELETE FROM Pagos WHERE Id = @IdPago;
+END;
