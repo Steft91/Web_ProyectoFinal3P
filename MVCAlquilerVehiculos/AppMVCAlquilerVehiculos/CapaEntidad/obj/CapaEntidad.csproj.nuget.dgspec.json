@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj": {}
+    "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj",
-        "packagesPath": "C:\\Users\\YALEDAPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YALEDAPC\\4to semestre\\ProgramacionWeb\\Proyecto3P\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\obj\\",
+        "projectPath": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\kmd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\YALEDAPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kmd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -68,3 +68,21 @@ C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MV
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\refint\CapaNegocios.dll
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.pdb
 C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\Proyecto3P\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\ref\CapaNegocios.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaNegocios.deps.json
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaNegocios.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaNegocios.pdb
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaDatos.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaDatos.pdb
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.sourcelink.json
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNego.1D246B3C.Up2Date
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\refint\CapaNegocios.dll
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\CapaNegocios.pdb
+C:\Users\kmd\Documents\GitHub\Web_ProyectoFinal3P\MVCAlquilerVehiculos\AppMVCAlquilerVehiculos\CapaNegocios\obj\Debug\net9.0\ref\CapaNegocios.dll
