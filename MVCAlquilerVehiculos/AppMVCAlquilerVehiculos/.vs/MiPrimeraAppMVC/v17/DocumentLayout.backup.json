@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capadatos\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capanegocios\\empleadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\empleadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\wwwroot\\js\\empleado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\empleado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,22 +51,6 @@
       "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capadatos\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5C3A1FE-C85A-4339-B47B-CB029E26EDD2}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\wwwroot\\js\\empleado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\wwwroot\\js\\empleado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\miprimeraappmvc\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4DAE7DE-349F-4B5F-AC18-4960C6930EA9}|MiPrimeraAppMVC\\MiPrimeraAppMVC.csproj|solutionrelative:miprimeraappmvc\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capanegocios\\empleadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857F0D62-515D-4589-8191-F073B3693564}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\empleadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\kmd\\documents\\github\\web_proyectofinal3p\\mvcalquilervehiculos\\appmvcalquilervehiculos\\capaentidad\\empleadocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A42B449-AEAB-46F9-B180-8A87FAD0CB15}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\empleadocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Home\\Index.cshtml",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\appsettings.json",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\appsettings.json",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Vehiculos\\Index.cshtml",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ReservaDAL.cs",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\ReservaDAL.cs",
               "RelativeDocumentMoniker": "CapaDatos\\ReservaDAL.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "VehiculosDAL.cs",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\VehiculosDAL.cs",
               "RelativeDocumentMoniker": "CapaDatos\\VehiculosDAL.cs",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "reserva.js",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\reserva.js",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\reserva.js",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Empleado\\Index.cshtml",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Empleado\\Index.cshtml",
@@ -151,39 +151,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Controllers\\EmpleadoController.cs",
               "ToolTip": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Controllers\\EmpleadoController.cs",
               "RelativeToolTip": "MiPrimeraAppMVC\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T01:39:11.501Z"
+              "WhenOpened": "2025-03-03T01:39:11.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "empleado.js",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\empleado.js",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\wwwroot\\js\\empleado.js",
               "ToolTip": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\wwwroot\\js\\empleado.js",
               "RelativeToolTip": "MiPrimeraAppMVC\\wwwroot\\js\\empleado.js",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-03T01:39:54.426Z"
+              "WhenOpened": "2025-03-03T01:39:54.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "EmpleadoBL.cs",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\EmpleadoBL.cs",
               "RelativeDocumentMoniker": "CapaNegocios\\EmpleadoBL.cs",
               "ToolTip": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaNegocios\\EmpleadoBL.cs",
               "RelativeToolTip": "CapaNegocios\\EmpleadoBL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T01:39:51.464Z"
+              "WhenOpened": "2025-03-03T01:39:51.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,19 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "EmpleadoDAL.cs",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\EmpleadoDAL.cs",
               "RelativeDocumentMoniker": "CapaDatos\\EmpleadoDAL.cs",
               "ToolTip": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\CapaDatos\\EmpleadoDAL.cs",
               "RelativeToolTip": "CapaDatos\\EmpleadoDAL.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwGsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwEgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T01:39:48.305Z"
+              "WhenOpened": "2025-03-03T01:39:48.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\kmd\\Documents\\GitHub\\Web_ProyectoFinal3P\\MVCAlquilerVehiculos\\AppMVCAlquilerVehiculos\\MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MiPrimeraAppMVC\\Views\\Shared\\_Layout.cshtml",

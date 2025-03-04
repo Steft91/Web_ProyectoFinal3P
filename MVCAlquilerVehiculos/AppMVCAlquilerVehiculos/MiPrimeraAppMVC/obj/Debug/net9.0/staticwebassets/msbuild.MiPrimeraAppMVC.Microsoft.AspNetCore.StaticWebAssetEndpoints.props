@@ -1011,14 +1011,14 @@
     <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q0EcWIKnrn7x7YQUY75QBokZGMZY1/\u002B7RoUowQ6jbmk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7153"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022q0EcWIKnrn7x7YQUY75QBokZGMZY1/\u002B7RoUowQ6jbmk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 03 Dec 2019 10:31:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GY9vb/MC\u002Bq6AH2\u002BFw61gSE\u002BNrAUoZHMTWf11G0Ml1H8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7216"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022GY9vb/MC\u002Bq6AH2\u002BFw61gSE\u002BNrAUoZHMTWf11G0Ml1H8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 15:48:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/main.tah301ufd4.js">
+    <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/main.z59imnecdc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tah301ufd4"},{"Name":"integrity","Value":"sha256-q0EcWIKnrn7x7YQUY75QBokZGMZY1/\u002B7RoUowQ6jbmk="},{"Name":"label","Value":"_content/MiPrimeraAppMVC/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7153"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022q0EcWIKnrn7x7YQUY75QBokZGMZY1/\u002B7RoUowQ6jbmk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 03 Dec 2019 10:31:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z59imnecdc"},{"Name":"integrity","Value":"sha256-GY9vb/MC\u002Bq6AH2\u002BFw61gSE\u002BNrAUoZHMTWf11G0Ml1H8="},{"Name":"label","Value":"_content/MiPrimeraAppMVC/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7216"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022GY9vb/MC\u002Bq6AH2\u002BFw61gSE\u002BNrAUoZHMTWf11G0Ml1H8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 15:48:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MiPrimeraAppMVC/js/medicamento.844ha8x8xh.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\medicamento.js'))</AssetFile>
