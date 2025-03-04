@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiPrimeraAppMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ad430a06af8b64d2b314302164e99a1715d928")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fdc037b9b11d588131de05555ad4dbc5c98cd5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiPrimeraAppMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiPrimeraAppMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
