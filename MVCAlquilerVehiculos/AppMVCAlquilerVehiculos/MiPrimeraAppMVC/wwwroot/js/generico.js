@@ -129,13 +129,14 @@ function pintar(objConfiguracion) {
         contenido += generarTabla(res);
         contenido += "</div>"
         document.getElementById("divTable").innerHTML = contenido;
+        //let table = new DataTable("#dataTable");
     })
 }
 function generarTabla(res) {
     let contenido = "";
     let cabeceras = objConfiguracionGlobal.cabeceras;
     let propiedades = objConfiguracionGlobal.propiedades;
-    contenido += "<table class='table'>";
+    contenido = '<table class="table table-striped table-success"  id="dataTable" >';
     contenido += "<thead>";
     contenido += "<tr>";
 
@@ -211,4 +212,21 @@ function set(idControl, valor) {
 
 function setN(namecontrol, valor) {
     document.getElementsByName(namecontrol)[0].value = valor;
+}
+
+function Confirmacion(titulo = "Confirmación", texto = "¿Desea guardar los cambios?", callback = null) {
+    Swal.fire({
+        title: titulo,
+        text: texto,
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sí",
+        cancelButtonText: "No",
+    }).then((result) => {
+        if (result.isConfirmed && typeof callback === "function") {
+            callback(); // Se ejecuta solo si es una función válida
+        }
+    });
 }

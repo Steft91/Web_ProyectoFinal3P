@@ -32,17 +32,17 @@ namespace MiPrimeraAppMVC.Controllers
 
         }
 
-        public ReservaCLS recuperarReserva(int idCliente)
+        public ReservaCLS recuperarReserva(int idReserva)
         {
             ReservaBL obj = new ReservaBL();
-            return obj.recuperarReserva(idCliente);
+            return obj.recuperarReserva(idReserva);
 
         }
 
-        public int EliminarReserva(int idCliente)
+        public int EliminarReserva(int idReserva)
         {
             ReservaDAL obj = new ReservaDAL();
-            return obj.EliminarReserva(idCliente);
+            return obj.EliminarReserva(idReserva);
         }
 
     }

@@ -8,9 +8,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CapaDatos
 {
-    public class VehiculosDAL : CadenaDAL
+    public class VehiculoDAL : CadenaDAL
     {
-        public int EliminarVehiculos(int idVehiculos)
+        public int EliminarVehiculo(int idVehiculo)
         {
             int rpta = 0;
             using (SqlConnection cn = new SqlConnection(cadena))
@@ -21,7 +21,7 @@ namespace CapaDatos
                     using (SqlCommand cmd = new SqlCommand("uspEliminarVehiculos", cn))
                     {
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@idVehiculos", idVehiculos);
+                        cmd.Parameters.AddWithValue("@idVehiculo", idVehiculo);
                         rpta = cmd.ExecuteNonQuery();
                     }
                 }
@@ -33,10 +33,9 @@ namespace CapaDatos
             return rpta;
         }
 
-
-        public VehiculosCLS recuperarVehiculos(int idVehiculos)
+        public VehiculoCLS recuperarVehiculo(int idVehiculo)
         {
-            VehiculosCLS oVehiculosCLS = new VehiculosCLS();
+            VehiculoCLS oVehiculoCLS = new VehiculoCLS();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -45,33 +44,33 @@ namespace CapaDatos
                     cn.Open();
                     using (SqlCommand cmd = new SqlCommand("uspRecuperarVehiculos", cn))
                     {
-                        cmd.CommandType = CommandType.Text;
-                        cmd.Parameters.AddWithValue("@idVehiculos", idVehiculos);
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@idVehiculo", idVehiculo);
 
-                        using (SqlDataReader dr = cmd.ExecuteReader())
-                            if (dr != null) {
-                                while (dr.Read())
-                                {
-                                    oVehiculosCLS = new VehiculosCLS();
-                                    oVehiculosCLS.idVehiculo = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
-                                    oVehiculosCLS.marca = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
-                                    oVehiculosCLS.modelo = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
-                                    oVehiculosCLS.anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
-                                    oVehiculosCLS.precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4);
-                                    oVehiculosCLS.estado = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
-                                }
-                                }
-                            }                           
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                oVehiculoCLS.idVehiculo = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
+                                oVehiculoCLS.marca = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
+                                oVehiculoCLS.modelo = dr.IsDBNull(2) ? "" : dr.GetString(2);
+                                oVehiculoCLS.anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
+                                oVehiculoCLS.precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4);
+                                oVehiculoCLS.estado = dr.IsDBNull(5) ? "" : dr.GetString(5);
+                            }
                         }
-                catch (Exception)
+                    }
+                }
+                catch (Exception ex)
                 {
                     cn.Close();
                 }
             }
-            return oVehiculosCLS;
+            return oVehiculoCLS;
         }
 
-        public int GuardarVehiculos(VehiculosCLS oVehiculosCLS)
+        public int GuardarVehiculo(VehiculoCLS oVehiculoCLS)
         {
             int rpta = 0;
             using (SqlConnection cn = new SqlConnection(cadena))
@@ -81,28 +80,30 @@ namespace CapaDatos
 
                     using (SqlCommand cmd = new SqlCommand("uspGuardarVehiculos", cn))
                     {
-                        cmd.CommandType = CommandType.Text;
-                        cmd.Parameters.AddWithValue("@marca", oVehiculosCLS.marca);
-                        cmd.Parameters.AddWithValue("@modelo", oVehiculosCLS.modelo);
-                        cmd.Parameters.AddWithValue("@año", oVehiculosCLS.anio);
-                        cmd.Parameters.AddWithValue("@precio", oVehiculosCLS.precio);
-                        cmd.Parameters.AddWithValue("@estado", oVehiculosCLS.estado);
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@idVehiculo", oVehiculoCLS.idVehiculo);
+                        cmd.Parameters.AddWithValue("@marca", oVehiculoCLS.marca);
+                        cmd.Parameters.AddWithValue("@modelo", oVehiculoCLS.modelo);
+                        cmd.Parameters.AddWithValue("@anio", oVehiculoCLS.anio);
+                        cmd.Parameters.AddWithValue("@precio", oVehiculoCLS.precio);
+                        cmd.Parameters.AddWithValue("@estado", oVehiculoCLS.estado);
 
                         rpta = cmd.ExecuteNonQuery();
                     }
-                } catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
                     Console.WriteLine("ex ocurrida en dal" + ex);
                     cn.Close();
                 }
-                return rpta;
+            return rpta;
         }
-        
-        public List<VehiculosCLS> listarVehiculos()
-        {
-            List<VehiculosCLS> lista = new List<VehiculosCLS>();
 
-            using (SqlConnection cn = new SqlConnection(cadena)) 
+        public List<VehiculoCLS> listarVehiculo()
+        {
+            List<VehiculoCLS> lista = new List<VehiculoCLS>();
+
+            using (SqlConnection cn = new SqlConnection(cadena))
             {
                 try
                 {
@@ -115,17 +116,17 @@ namespace CapaDatos
                         {
                             while (dr.Read())
                             {
-                                VehiculosCLS oVehiculosCLS = new VehiculosCLS
+                                VehiculoCLS oVehiculoCLS = new VehiculoCLS
                                 {
                                     idVehiculo = dr.IsDBNull(0) ? 0 : dr.GetInt32(0),
                                     marca = dr.IsDBNull(1) ? "" : dr.GetString(1),
                                     modelo = dr.IsDBNull(2) ? "" : dr.GetString(2),
-                                    anio = dr.IsDBNull(2) ? 0 : dr.GetInt32(3),
-                                    precio = dr.IsDBNull(2) ? 0 : (double)dr.GetDecimal(4),
-                                    estado = dr.IsDBNull(2) ? "" : dr.GetString(5)
+                                    anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3),
+                                    precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4),
+                                    estado = dr.IsDBNull(5) ? "" : dr.GetString(5)
                                 };
 
-                                lista.Add(oVehiculosCLS);
+                                lista.Add(oVehiculoCLS);
                             }
                         }
                     }
@@ -139,9 +140,9 @@ namespace CapaDatos
             return lista;
         }
 
-        public List<VehiculosCLS> filtrarVehiculos(string nombre)
+        public List<VehiculoCLS> filtrarVehiculo(string nombre)
         {
-            List<VehiculosCLS> lista = new List<VehiculosCLS>();
+            List<VehiculoCLS> lista = new List<VehiculoCLS>();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -157,17 +158,17 @@ namespace CapaDatos
                         {
                             while (dr.Read())
                             {
-                                VehiculosCLS oVehiculosCLS = new VehiculosCLS
+                                VehiculoCLS oVehiculoCLS = new VehiculoCLS
                                 {
                                     idVehiculo = dr.IsDBNull(0) ? 0 : dr.GetInt32(0),
                                     marca = dr.IsDBNull(1) ? "" : dr.GetString(1),
                                     modelo = dr.IsDBNull(2) ? "" : dr.GetString(2),
-                                    anio = dr.IsDBNull(2) ? 0 : dr.GetInt32(3),
-                                    precio = dr.IsDBNull(2) ? 0 : (double)dr.GetDecimal(4),
-                                    estado = dr.IsDBNull(2) ? "" : dr.GetString(5)
+                                    anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3),
+                                    precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4),
+                                    estado = dr.IsDBNull(5) ? "" : dr.GetString(5)
                                 };
 
-                                lista.Add(oVehiculosCLS);
+                                lista.Add(oVehiculoCLS);
                             }
                         }
                     }
@@ -183,6 +184,3 @@ namespace CapaDatos
     }
 }
 
-
-//select IDTIPOMEDICAMENTO, NOMBRE, DESCRPCION"
-//+ "from TipoMedicamento where BHABILITADO = 1 and IDTIPOMEDICAMENTO = @idtipomedicamento", cn)

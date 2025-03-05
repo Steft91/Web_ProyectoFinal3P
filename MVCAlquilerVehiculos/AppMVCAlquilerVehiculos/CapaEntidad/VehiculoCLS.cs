@@ -1,6 +1,6 @@
 ﻿namespace CapaEntidad
 {
-    public class VehiculosCLS
+    public class VehiculoCLS
     {
         public int idVehiculo { get; set; }
         public string marca { get; set; }

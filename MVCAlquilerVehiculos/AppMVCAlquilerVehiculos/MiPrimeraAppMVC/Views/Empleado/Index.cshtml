@@ -4,7 +4,48 @@
 
 <h1>Empleado</h1>
 
-<div class="input-group">
+<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="frmGuardarEmpleado">
+                    <input type="hidden" name="idEmpleado" id="idEmpleado">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">nombre Empleado</label>
+                        <input type="text" name="nombreEmpleado" class="form-control" id="nombreEmpleado" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">apellido Empleado</label>
+                        <input type="text" name="apellidoEmpleado" class="form-control" id="apellidoEmpleado" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">cargo</label>
+                        <input type="text" name="cargo" class="form-control" id="cargo" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">telefono Empleado</label>
+                        <input type="text" name="telefonoEmpleado" class="form-control" id="telefonoEmpleado" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">email Empleado</label>
+                        <input type="text" name="emailEmpleado" class="form-control" id="emailEmpleado" value="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button class="btn btn-outline-secondary" type="button" onclick="GuardarEmpleado()" id="buttonGuardar">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <div class="input-group">
     <input id="txtTipoMedicamento" type="text" class="form-control" onkeyup="filtrarEmpleado()" placeholder="Ingresar tipo medicamento a buscar" aria-label="Recipient's username with two button addons">
 
 </div>
@@ -48,7 +89,7 @@
 
 
 </fieldset>
-
+ *@
 <div id="divTable">
 </div>
 

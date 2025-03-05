@@ -41,7 +41,7 @@ namespace CapaDatos
                     cn.Open();
                     using (SqlCommand cmd = new SqlCommand("uspRecuperarClientes", cn))
                     {
-                        cmd.CommandType = System.Data.CommandType.Text;
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@idCliente", idCliente);
 
                         SqlDataReader dr = cmd.ExecuteReader();

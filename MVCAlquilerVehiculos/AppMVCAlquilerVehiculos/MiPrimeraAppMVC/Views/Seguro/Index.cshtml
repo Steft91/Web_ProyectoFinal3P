@@ -5,7 +5,40 @@
 
 <h1>Seguro</h1>
 
-<div class="input-group">
+<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="frmGuardarSeguro">
+                    <input type="hidden" name="idSeguro" id="idSeguro">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">id Reserva</label>
+                        <input type="text" name="idReserva" class="form-control" id="idReserva" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">tipo Seguro</label>
+                        <input type="text" name="tipoSeguro" class="form-control" id="tipoSeguro" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">costo</label>
+                        <input type="text" name="costo" class="form-control" id="costo" value="">
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button class="btn btn-outline-secondary" type="button" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div class="input-group">
     <input id="txtSeguro" type="text" class="form-control" onkeyup="filtarSeguro()" placeholder="Ingresar Seguro a buscar" aria-label="Recipient's username with two button addons">
     
 </div>
@@ -27,7 +60,7 @@
         </div>
         <div class="col-12">
             <label for="costo" class="form-label">Costo</label>
-            <input type="text" class="form-control" id="precio" name="costo" placeholder="costo">
+            <input type="text" class="form-control" id="costo" name="costo" placeholder="costo">
         </div>        
 
     </form>
@@ -42,7 +75,7 @@
     
 
 </fieldset>
-
+ *@
 <div id="divTable">
 
 </div>

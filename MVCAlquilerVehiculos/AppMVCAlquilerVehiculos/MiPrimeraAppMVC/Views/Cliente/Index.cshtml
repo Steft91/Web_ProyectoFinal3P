@@ -4,8 +4,43 @@
 
 <h1>Cliente</h1>
 
-<div class="input-group">
-    <input id="txtCliente" type="text" class="form-control" onkeyup="filtrarCliente()" placeholder="Ingresar tipo medicamento a buscar" aria-label="Recipient's username with two button addons">
+<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="frmGuardarCliente">
+                    <input type="hidden" name="idCliente" id="idCliente">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">nombre</label>
+                        <input type="text" name="nombre" class="form-control" id="nombre" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Apellido</label>
+                        <input type="text" name="apellido" class="form-control" id="apellido" value="">
+                    </div><div class="mb-3">
+                        <label for="nombre" class="form-label">telefono</label>
+                        <input type="text" name="telefono" class="form-control" id="telefono" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">email</label>
+                        <input type="text" name="email" class="form-control" id="email" value="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button class="btn btn-outline-secondary" type="button" onclick="GuardarCliente()" id="buttonGuardar">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div class="input-group">
+    <input id="txtCliente" type="text" class="form-control" onkeyup="filtrarCliente()" placeholder="Ingresar cliente a buscar" aria-label="Recipient's username with two button addons">
     
 </div>
 
@@ -18,7 +53,7 @@
         </div>
         <div class="col-md-6">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="nombre" id="Nombre">
+            <input type="text" class="form-control" name="nombre" id="nombre">
         </div>
         <div class="col-12">
             <label for="apellido" class="form-label">Apellido</label>
@@ -36,14 +71,14 @@
    <div class="row g-3">
         <div class="d-grid gap-2">
             <button type="button" class="btn btn-primary" onclick="GuardarCliente()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarCiente()">Limpiar</button>
+            <button type="button" class="btn btn-danger" onclick="LimpiarCliente()">Limpiar</button>
         </div>
    </div>
 
     
 
 </fieldset>
-
+ *@
 <div id="divTable">
 
 </div>

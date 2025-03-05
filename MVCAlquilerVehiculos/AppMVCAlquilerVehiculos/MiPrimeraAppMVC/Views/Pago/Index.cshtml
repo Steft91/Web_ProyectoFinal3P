@@ -4,25 +4,61 @@
 
 <h1>Pago</h1>
 
-<div class="input-group">
+@* <div class="input-group">
     <input id="txtPago" type="text" class="form-control" onkeyup="filtrarPago()" placeholder="Ingresar pago a buscar" aria-label="Recipient's username with two button addons">
 
+</div> *@
+
+<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="frmGuardarPago">
+                    <input type="hidden" name="idPago" id="idPago">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">id Reserva</label>
+                        <input type="text" name="idReserva" class="form-control" id="idReserva" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Monto</label>
+                        <input type="text" name="monto" class="form-control" id="monto" value="">
+                    </div><div class="mb-3">
+                        <label for="nombre" class="form-label">metodo de Pago</label>
+                        <input type="text" name="metodoPago" class="form-control" id="metodoPago" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">fecha de Pago</label>
+                        <input type="text" name="fechaPago" class="form-control" id="fechaPago" value="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button class="btn btn-outline-secondary" type="button" onclick="GuardarPago()" id="buttonGuardar">Guardar</button>
+            </div>
+        </div>
+    </div>
 </div>
 
-<fieldset>
+
+@* <fieldset>
     <legend>Guardar Datos</legend>
-    <form id="frmGuardarPago" class="row g-3">
+    <form id="frmGuardarReserva" class="row g-3">
         <div class="col-md-6">
-            <label for="idPago" class="form-label">id Pago</label>
-            <input type="text" class="form-control" name="idPago" id="idPago">
+            <label for="idReserva" class="form-label">id Pago</label>
+            <input type="text" class="form-control" name="idReserva" id="idReserva">
         </div>
         <div class="col-md-6">
             <label for="idReserva" class="form-label">Id Reserva</label>
             <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
         </div>
         <div class="col-12">
-            <label for="monto" class="form-label">Monto</label>
-            <input type="text" class="form-control" id="monto" name="monto" placeholder="monto">
+            <label for="idVehiculo" class="form-label">Monto</label>
+            <input type="text" class="form-control" id="idVehiculo" name="idVehiculo" placeholder="idVehiculo">
         </div><div class="col-md-6">
             <label for="metodoPago" class="form-label">Metodo de pago</label>
             <input type="text" class="form-control" name="metodoPago" id="metodoPago" placeholder="metodo de Pago">
@@ -43,7 +79,7 @@
 
 
 </fieldset>
-
+ *@
 <div id="divTable">
 </div>
 

@@ -28,14 +28,6 @@ namespace MiPrimeraAppMVC.Controllers
         public int GuardarCliente(ClienteCLS oClienteCLS)
         {
             ClienteBL obj = new ClienteBL();
-            //var formValues = Request.Form;
-
-
-            //foreach (var key in formValues.Keys)
-            //{
-            //    var value = formValues[key];
-            //    Console.WriteLine($"{key}: {value}");
-            //}
             return obj.GuardarCliente(oClienteCLS);
 
         }

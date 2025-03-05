@@ -77,10 +77,10 @@ namespace CapaDatos
                     {
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@idPago", oPagoCLS.idPago);
-                        cmd.Parameters.AddWithValue("@idCliente", oPagoCLS.idReserva);
-                        cmd.Parameters.AddWithValue("@idVehiculo", oPagoCLS.monto);
-                        cmd.Parameters.AddWithValue("@fechaInicio", oPagoCLS.metodoPago);
-                        cmd.Parameters.AddWithValue("@fechaFin", oPagoCLS.fechaPago);
+                        cmd.Parameters.AddWithValue("@idReserva", oPagoCLS.idReserva);
+                        cmd.Parameters.AddWithValue("@monto", oPagoCLS.monto);
+                        cmd.Parameters.AddWithValue("@metodoPago", oPagoCLS.metodoPago);
+                        cmd.Parameters.AddWithValue("@fechaPago", oPagoCLS.fechaPago);
                         rpta = cmd.ExecuteNonQuery();
                     }
                 }
@@ -144,7 +144,7 @@ namespace CapaDatos
                     using (SqlCommand cmd = new SqlCommand("uspFiltrarPagos", cn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@MetodoPago", nombre ?? "");
+                        cmd.Parameters.AddWithValue("@metodoPago", nombre ?? "");
 
                         using (SqlDataReader dr = cmd.ExecuteReader())
                         {
