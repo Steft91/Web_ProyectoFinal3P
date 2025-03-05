@@ -1,50 +1,92 @@
-CREATE PROCEDURE [dbo].[uspEliminarCliente]
-@id INT
+USE [AlquilerVehiculos]
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarClientes]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[uspEliminarClientes]
+	@idCliente INT
 AS
 BEGIN
     DELETE FROM Clientes
-    WHERE id = @id
+    WHERE Id = @idCliente
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarEmpleado]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspEliminarEmpleado
+CREATE PROCEDURE [dbo].[uspEliminarEmpleado]
     @idEmpleado INT
 AS
 BEGIN
     DELETE FROM Empleados WHERE Id = @idEmpleado;
 END;
-
-CREATE PROCEDURE uspEliminarPago
-    @IdPago INT
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarPago]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspEliminarPago]
+    @idPago INT
 AS
 BEGIN
-    DELETE FROM Pagos WHERE Id = @IdPago;
+    DELETE FROM Pagos WHERE Id = @idPago;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarReservas]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspEliminarReservas]
-    @Id INT
+    @idReserva INT
 AS
 BEGIN
-
-    DELETE FROM Reservas WHERE Id = @Id;
+    DELETE FROM Reservas WHERE Id = @idReserva;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarSeguro]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspEliminarSeguro
+CREATE PROCEDURE [dbo].[uspEliminarSeguro]
     @idSeguro INT
 AS
 BEGIN
     DELETE FROM Seguros WHERE Id = @idSeguro;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspEliminarVehiculos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspEliminarVehiculos]
-@id INT
+	@idVehiculo INT
 AS
 BEGIN
     DELETE FROM Vehiculos
-    WHERE id = @id
+    WHERE Id = @idVehiculo
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarClientes]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspFiltrarClientes]
-@nombre NVARCHAR(100)
+	@nombre NVARCHAR(100)
 AS
 BEGIN
     IF @nombre = ''
@@ -52,88 +94,104 @@ BEGIN
     ELSE
         SELECT * FROM Clientes WHERE Nombre LIKE '%' + @nombre + '%'
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarEmpleados]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspFiltrarEmpleados
-     @nombreEmpleado NVARCHAR(50)
+CREATE PROCEDURE [dbo].[uspFiltrarEmpleados]
+    @nombreEmpleado NVARCHAR(50)
 AS
 BEGIN
-
     IF @nombreEmpleado = ''
         SELECT * FROM Empleados;
     ELSE
         SELECT * FROM Empleados WHERE Nombre LIKE '%' + @nombreEmpleado + '%';
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarPagos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspFiltrarPagos
-    @MetodoPago NVARCHAR(50)
+CREATE PROCEDURE [dbo].[uspFiltrarPagos]
+    @metodoPago NVARCHAR(50)
 AS
 BEGIN
-    IF @MetodoPago = ''
+    IF @metodoPago = ''
         SELECT * FROM Pagos;
     ELSE
-        SELECT * FROM Pagos WHERE MetodoPago LIKE '%' + @MetodoPago + '%';
+        SELECT * FROM Pagos WHERE MetodoPago LIKE '%' + @metodoPago + '%';
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarReservas]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspFiltrarReservas]
-    @ClienteId INT
+    @estado NVARCHAR(50)
 AS
 BEGIN
-    IF @ClienteId = 0
-        SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
-        FROM Reservas;
+    IF @estado = ''
+        SELECT * FROM Reservas;
     ELSE
-        SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
-        FROM Reservas
-        WHERE ClienteId = @ClienteId;
+        SELECT * FROM Reservas
+        WHERE Estado LIKE '%' + @estado + '%';
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarSeguros]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspFiltrarSeguros
+CREATE PROCEDURE [dbo].[uspFiltrarSeguros]
     @tipoSeguro NVARCHAR(50)
 AS
 BEGIN
-
     IF @tipoSeguro = ''
         SELECT * FROM Seguros;
     ELSE
         SELECT * FROM Seguros WHERE TipoSeguro LIKE '%' + @tipoSeguro + '%';
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspFiltrarVehiculos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspFiltrarVehiculos]
-@marca NVARCHAR(50)
+    @marca NVARCHAR(50)
 AS
 BEGIN
     IF @marca = ''
-    BEGIN
-        SELECT Id, 
-               Marca, 
-               Modelo, 
-               Anio, 
-               Precio, 
-               Estado
-        FROM Vehiculos
-    END
+        SELECT * FROM Vehiculos;
     ELSE
-    BEGIN
-        SELECT Id, 
-               Marca, 
-               Modelo, 
-               Anio, 
-               Precio, 
-               Estado
-        FROM Vehiculos
-        WHERE Marca LIKE '%' + @marca + '%'  -- Filtra solo por la marca
-    END
+        SELECT * FROM Vehiculos
+        WHERE Marca LIKE '%' + @marca + '%';
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarClientes]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE [dbo].[uspGuardarCliente]
-@id INT,
-@nombre NVARCHAR(100),
-@apellido NVARCHAR(100),
-@telefono NVARCHAR(15),
-@email NVARCHAR(100)
+CREATE PROCEDURE [dbo].[uspGuardarClientes]
+	@idCliente INT,
+	@nombre NVARCHAR(100),
+	@apellido NVARCHAR(100),
+	@telefono NVARCHAR(15),
+	@email NVARCHAR(100)
 AS
 BEGIN
-    IF @id = 0
+    IF @idCliente = 0
     BEGIN
         -- Insertar nuevo cliente
         INSERT INTO Clientes (Nombre, Apellido, Telefono, Email)
@@ -147,11 +205,17 @@ BEGIN
             Apellido = @apellido,
             Telefono = @telefono,
             Email = @email
-        WHERE id = @id
+        WHERE id = @idCliente
     END
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarEmpleado]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspGuardarEmpleado
+CREATE PROCEDURE [dbo].[uspGuardarEmpleado]
     @idEmpleado INT,
     @nombreEmpleado NVARCHAR(50),
     @apellidoEmpleado NVARCHAR(50),
@@ -174,64 +238,80 @@ BEGIN
         WHERE Id = @idEmpleado;
     END
 END;
-
-CREATE PROCEDURE uspGuardarPago
-    @IdPago INT,
-    @ReservaId INT,
-    @Monto DECIMAL(10,2),
-    @MetodoPago NVARCHAR(50),
-    @FechaPago DATE
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarPago]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspGuardarPago]
+    @idPago INT,
+    @idReserva INT,
+    @monto DECIMAL(10,2),
+    @metodoPago NVARCHAR(50),
+    @fechaPago DATE
 AS
 BEGIN
-    IF @IdPago = 0
+    IF @idPago = 0
         -- Insertar nuevo pago
         INSERT INTO Pagos (ReservaId, Monto, MetodoPago, FechaPago)
-        VALUES (@ReservaId, @Monto, @MetodoPago, @FechaPago);
+        VALUES (@idReserva, @monto, @metodoPago, @fechaPago);
     ELSE
+	BEGIN
         -- Actualizar pago existente
         UPDATE Pagos
-        SET ReservaId = @ReservaId, Monto = @Monto, MetodoPago = @MetodoPago, FechaPago = @FechaPago
-        WHERE Id = @IdPago;
+        SET ReservaId = @idReserva, Monto = @monto, MetodoPago = @metodoPago, FechaPago = @fechaPago
+        WHERE Id = @idPago;
+	END
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarReservas]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspGuardarReservas]
-    @Id INT,
-    @ClienteId INT,
-    @VehiculoId INT,
-    @FechaInicio DATE,
-    @FechaFin DATE,
-    @Estado NVARCHAR(20)
+    @idReserva INT,
+    @idCliente INT,
+    @idVehiculo INT,
+    @fechaInicio DATE,
+    @fechaFin DATE,
+    @estado NVARCHAR(20)
 AS
 BEGIN
-
-
-    IF @Id = 0
+    IF @idReserva = 0
     BEGIN
         -- Insertar nueva reserva
         INSERT INTO Reservas (ClienteId, VehiculoId, FechaInicio, FechaFin, Estado)
-        VALUES (@ClienteId, @VehiculoId, @FechaInicio, @FechaFin, @Estado);
+        VALUES (@idCliente, @idVehiculo, @fechaInicio, @fechaFin, @estado);
     END
     ELSE
     BEGIN
         -- Actualizar reserva existente
         UPDATE Reservas
-        SET ClienteId = @ClienteId,
-            VehiculoId = @VehiculoId,
-            FechaInicio = @FechaInicio,
-            FechaFin = @FechaFin,
-            Estado = @Estado
-        WHERE Id = @Id;
+        SET ClienteId = @idCliente,
+            VehiculoId = @idVehiculo,
+            FechaInicio = @fechaInicio,
+            FechaFin = @fechaFin,
+            Estado = @estado
+        WHERE Id = @idReserva;
     END
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarSeguro]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspGuardarSeguro
+CREATE PROCEDURE [dbo].[uspGuardarSeguro]
     @idSeguro INT,
     @idReserva INT,
     @tipoSeguro NVARCHAR(50),
     @costo DECIMAL(10, 2)
 AS
 BEGIN
-
     IF @idSeguro = 0
     BEGIN
         -- Insertar nuevo pago
@@ -248,129 +328,192 @@ BEGIN
         WHERE Id = @idSeguro;
     END
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspGuardarVehiculos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspGuardarVehiculos]
-@iidvehiculo INT,
-@marca NVARCHAR(50),
-@modelo NVARCHAR(50),
-@anio INT,
-@precio DECIMAL(10,2),
-@estado NVARCHAR(20)
+    @idVehiculo INT,
+    @marca NVARCHAR(50),
+    @modelo NVARCHAR(50),
+    @anio INT,
+    @precio DECIMAL(10,2),
+    @estado NVARCHAR(20)
 AS
 BEGIN
-
-    IF @iidvehiculo = 0
-    -- Insertar
+    IF @idVehiculo = 0
     BEGIN
+        -- Insertar un nuevo vehículo
         INSERT INTO Vehiculos (Marca, Modelo, Anio, Precio, Estado)
-        VALUES (@marca, @modelo, @anio, @precio, @estado)
+        VALUES (@marca, @modelo, @anio, @precio, @estado);
     END
     ELSE
-    -- Actualizar
     BEGIN
+        -- Actualizar un vehículo existente
         UPDATE Vehiculos
         SET Marca = @marca,
             Modelo = @modelo,
             Anio = @anio,
             Precio = @precio,
             Estado = @estado
-        WHERE Id = @iidvehiculo
+        WHERE Id = @idVehiculo;
     END
-
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarClientes]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspListarClientes]
 AS
 BEGIN
     SELECT * FROM Clientes
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarEmpleados]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspListarEmpleados
+CREATE PROCEDURE [dbo].[uspListarEmpleados]
 AS
 BEGIN
     SELECT * FROM Empleados;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarPagos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspListarPagos
+CREATE PROCEDURE [dbo].[uspListarPagos]
 AS
 BEGIN
     SELECT * FROM Pagos;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarReservas]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspListarReservas]
 AS
 BEGIN
-
-    SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
-    FROM Reservas;
+    SELECT * FROM Reservas;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarSeguros]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspListarSeguros
+CREATE PROCEDURE [dbo].[uspListarSeguros]
 AS
 BEGIN
-    SET NOCOUNT ON;
     SELECT * FROM Seguros;
 END;
-
+GO
+/****** Object:  StoredProcedure [dbo].[uspListarVehiculos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 CREATE PROCEDURE [dbo].[uspListarVehiculos]
 AS
 BEGIN
-    SET NOCOUNT ON;
-
-    SELECT Id AS idVehiculo,  
-           Marca, 
-           Modelo, 
-           Anio, 
-           Precio, 
-           Estado
-    FROM Vehiculos;
+    SELECT * FROM Vehiculos;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarClientes]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE [dbo].[uspRecuperarCliente]
-@id INT
+CREATE PROCEDURE [dbo].[uspRecuperarClientes]
+	@idCliente INT
 AS
 BEGIN
     SELECT * FROM Clientes
-    WHERE id = @id
+    WHERE Id = @idCliente
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarEmpleado]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspRecuperarEmpleado
+CREATE PROCEDURE [dbo].[uspRecuperarEmpleado]
     @idEmpleado INT
 AS
 BEGIN
     SELECT * FROM Empleados WHERE Id = @idEmpleado;
 END;
-
-CREATE PROCEDURE uspRecuperarPago
-    @IdPago INT
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarPago]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspRecuperarPago]
+    @idPago INT
 AS
 BEGIN
-    SELECT * FROM Pagos WHERE Id = @IdPago;
+    SELECT * FROM Pagos 
+    WHERE Id = @idPago;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarReservas]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspRecuperarReservas]
-    @Id INT
+    @idReserva INT
 AS
 BEGIN
-    SELECT Id, ClienteId, VehiculoId, FechaInicio, FechaFin, Estado
-    FROM Reservas
-    WHERE Id = @Id;
+    SELECT * FROM Reservas
+    WHERE Id = @idReserva;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarSeguro]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
-CREATE PROCEDURE uspRecuperarSeguro
+CREATE PROCEDURE [dbo].[uspRecuperarSeguro]
     @idSeguro INT
 AS
 BEGIN
     SELECT * FROM Seguros WHERE Id = @idSeguro;
 END;
+GO
+/****** Object:  StoredProcedure [dbo].[uspRecuperarVehiculos]    Script Date: 5/3/25 1:39:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 
 CREATE PROCEDURE [dbo].[uspRecuperarVehiculos]
-@id INT
+@idVehiculo INT
 AS
 BEGIN
-
     SELECT *
     FROM Vehiculos
-    WHERE id = @id
+    WHERE Id = @idVehiculo
 
 END;
+GO
