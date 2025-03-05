@@ -47,8 +47,7 @@ function GuardarReserva() {
             LimpiarDatos("frmGuardarReserva");
 
             // Cerrar el modal después de actualizar
-            let modalActualizar = bootstrap.Modal.getInstance(document.getElementById("modalActualizar"));
-            modalActualizar.hide();
+            $("#modalActualizar").modal("hide");
         }
     };
 
@@ -131,8 +130,7 @@ function Editar(id) {
 
             guardarBtn.innerText = "Actualizar";
 
-            let modalActualizar = new bootstrap.Modal(document.getElementById("modalActualizar"));
-            modalActualizar.show();
+            $("#modalActualizar").modal("show");
         } else {
             alert("No se pudo recuperar la información de la reserva.");
         }
@@ -159,9 +157,8 @@ function Eliminar(id) {
                 listarReserva();
                 LimpiarDatos();
 
-                let modalActualizar = bootstrap.Modal.getInstance(document.getElementById("modalActualizar"));
-                if (modalActualizar) {
-                    modalActualizar.hide();
+                if ($("#modalActualizar").length > 0) {
+                    $("#modalActualizar").modal("hide");
                 }
 
                 Swal.fire("Eliminado", "La reserva se eliminó correctamente", "success");

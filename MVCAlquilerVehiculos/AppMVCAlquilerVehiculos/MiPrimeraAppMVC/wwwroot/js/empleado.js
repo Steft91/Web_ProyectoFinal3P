@@ -47,8 +47,7 @@ function GuardarEmpleado() {
             LimpiarDatos("frmGuardarEmpleado");
 
             // Cerrar el modal después de actualizar
-            let modalActualizar = bootstrap.Modal.getInstance(document.getElementById("modalActualizar"));
-            modalActualizar.hide();
+            $("#modalActualizar").modal("hide");
         }
     };
 
@@ -130,8 +129,7 @@ function Editar(id) {
 
             guardarBtn.innerText = "Actualizar";
 
-            let modalActualizar = new bootstrap.Modal(document.getElementById("modalActualizar"));
-            modalActualizar.show();
+            $("#modalActualizar").modal("show");
         } else {
             alert("No se pudo recuperar la información del empleado.");
         }
@@ -159,9 +157,8 @@ function Eliminar(id) {
                 listarEmpleado();
                 LimpiarDatos();
 
-                let modalActualizar = bootstrap.Modal.getInstance(document.getElementById("modalActualizar"));
-                if (modalActualizar) {
-                    modalActualizar.hide();
+                if ($("#modalActualizar").length > 0) {
+                    $("#modalActualizar").modal("hide");
                 }
 
                 Swal.fire("Eliminado", "El empleado se eliminó correctamente", "success");

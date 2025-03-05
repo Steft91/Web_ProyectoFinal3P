@@ -129,7 +129,7 @@ function pintar(objConfiguracion) {
         contenido += generarTabla(res);
         contenido += "</div>"
         document.getElementById("divTable").innerHTML = contenido;
-        //let table = new DataTable("#dataTable");
+        new DataTable("#dataTable");
     })
 }
 function generarTabla(res) {
