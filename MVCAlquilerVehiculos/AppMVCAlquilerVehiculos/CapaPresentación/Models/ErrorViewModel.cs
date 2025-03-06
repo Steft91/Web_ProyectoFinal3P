@@ -1,4 +1,4 @@
-namespace MiPrimeraAppMVC.Models
+namespace CapaPresentacion.Models
 {
     public class ErrorViewModel
     {

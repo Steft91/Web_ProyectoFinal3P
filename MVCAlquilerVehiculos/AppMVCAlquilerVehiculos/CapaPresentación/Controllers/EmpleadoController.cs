@@ -3,7 +3,7 @@ using CapaEntidad;
 using CapaNegocios;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MiPrimeraAppMVC.Controllers
+namespace CapaPresentacion.Controllers
 {
     public class EmpleadoController : Controller
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MiPrimeraAppMVC.Controllers
+namespace CapaPresentacion.Controllers
 {
     public class MedicamentoController : Controller
     {

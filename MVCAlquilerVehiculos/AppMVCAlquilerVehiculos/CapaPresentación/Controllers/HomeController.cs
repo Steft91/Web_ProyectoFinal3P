@@ -1,8 +1,9 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MiPrimeraAppMVC.Models;
+using CapaPresentacion.Models;
+using Microsoft.Extensions.Logging;
 
-namespace MiPrimeraAppMVC.Controllers
+namespace CapaPresentacion.Controllers
 {
     public class HomeController : Controller
     {
