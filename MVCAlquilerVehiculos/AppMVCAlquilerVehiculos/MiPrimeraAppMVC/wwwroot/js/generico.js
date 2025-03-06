@@ -224,6 +224,8 @@ function Confirmacion(titulo = "Confirmación", texto = "¿Desea guardar los cam
         cancelButtonColor: "#d33",
         confirmButtonText: "Sí",
         cancelButtonText: "No",
+        focusConfirm: false,
+        backdrop: false
     }).then((result) => {
         if (result.isConfirmed && typeof callback === "function") {
             callback(); // Se ejecuta solo si es una función válida
