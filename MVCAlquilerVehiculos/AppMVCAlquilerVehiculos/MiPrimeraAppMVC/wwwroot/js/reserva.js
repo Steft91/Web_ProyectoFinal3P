@@ -37,6 +37,39 @@ function Buscar() {
 
 const idReservaInput = document.getElementById("idReserva");
 const guardarBtn = document.getElementById("buttonGuardar");
+
+/////////////////////
+
+document.getElementById("btnNuevaReserva").addEventListener("click", function () {
+    $("#modalNuevaReserva").modal("show");
+});
+
+document.getElementById("buttonGuardarNuevo").addEventListener("click", function () {
+    const frmNuevaReserva = new FormData();
+    frmNuevaReserva.append("idCliente", document.getElementById("idClienteNuevo").value);
+    frmNuevaReserva.append("idVehiculo", document.getElementById("idVehiculoNuevo").value);
+    frmNuevaReserva.append("fechaInicio", document.getElementById("fechaInicioNuevo").value);
+    frmNuevaReserva.append("fechaFin", document.getElementById("fechaFinNuevo").value);
+    frmNuevaReserva.append("estado", document.getElementById("estadoNuevo").value);
+
+    const callback = (res) => {
+        const resInt = parseInt(res);
+        if (resInt == 1) {
+            listarReserva();
+            LimpiarDatos("frmGuardarReserva");
+
+            $("#modalNuevaReserva").modal("hide");
+        }
+    };
+
+
+    Confirmacion("Confirmación", "¿desea guardar esta nueva reserva?", function () {
+        fetchPost("Reserva/GuardarReserva", "text", frmNuevaReserva, callback);
+    });
+
+   
+});
+
 function GuardarReserva() {
     const frmGuardar = new FormData(document.getElementById("frmGuardarReserva"));
 
@@ -54,26 +87,10 @@ function GuardarReserva() {
     Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
         if (idReservaInput.value != "") {
             fetchPut("Reserva/GuardarReserva", "text", frmGuardar, callback);
-        } else {
-            fetchPost("Reserva/GuardarReserva", "text", frmGuardar, callback);
-        }
+        }// else {
+        //    fetchPost("Reserva/GuardarReserva", "text", frmGuardar, callback);
+        //}
     });
-    //const frm = new FormData(document.getElementById("frmGuardarReserva"));
-    //const callback = (res) => {
-    //    const resInt = parseInt(res);
-    //    if (resInt == 1) {
-    //        listarReserva();
-    //        LimpiarDatos("frmGuardarReserva");
-    //        guardarBtn.innerText = "Guardar";
-
-    //    }
-    //}
-
-    //if (idReservaInput.value != "") {
-    //    fetchPut("Reserva/GuardarReserva", "text", frm, callback);
-    //} else {
-    //    fetchPost("Reserva/GuardarReserva", "text", frm, callback);
-    //}
 
 }
 
@@ -135,18 +152,6 @@ function Editar(id) {
             alert("No se pudo recuperar la información de la reserva.");
         }
     });
-
-    //guardarBtn.innerText = "Actualizar";
-    ////recuperarGenerico("Reserva/recuperarTipoMedicamento/?idTipoMedicamento=" + id,"frmGuardarTipoMedicamento");
-    //fetchGet("Reserva/recuperarReserva/?idReserva=" + id, "json", function (data) {
-    //    setN("idReserva", data.idReserva)
-    //    setN("idReserva", data.idReserva)
-    //    setN("idVehiculo", data.idVehiculo)
-    //    setN("fechaInicio", data.fechaInicio)
-    //    setN("fechaFin", data.fechaFin)
-    //    setN("estado", data.estado)
-
-    //});
 }
 
 function Eliminar(id) {
@@ -167,12 +172,5 @@ function Eliminar(id) {
             }
         });
     });
-    //const deleteAns = confirm("¿Está seguro de eliminar este dato?");
-    //if (!deleteAns) return;
 
-    //fetchDelete("Reserva/EliminarReserva/?idReserva=" + id, "text", (res) => {
-    //    if (parseInt(res) == 1) {
-    //        listarReserva();
-    //    }
-    //});
 }

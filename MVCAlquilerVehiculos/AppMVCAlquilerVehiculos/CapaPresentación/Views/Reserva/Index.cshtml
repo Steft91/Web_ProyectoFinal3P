@@ -4,7 +4,39 @@
 
 <h1>Reserva</h1>
 
-<fieldset>
+<button id="btnNuevaReserva" class="btn btn-primary">Nueva Reserva</button>
+<div id="modalNuevaReserva" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Nueva Reserva</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="frmNuevaReserva">
+                    <label>Cliente</label>
+                    <input type="text" id="idClienteNuevo" class="form-control">
+                    <label>Vehículo</label>
+                    <input type="text" id="idVehiculoNuevo" class="form-control">
+                    <label>Fecha de Inicio</label>
+                    <input type="date" id="fechaInicioNuevo" class="form-control">
+                    <label>Fecha de Fin</label>
+                    <input type="date" id="fechaFinNuevo" class="form-control">
+                    <label>Estado</label>
+                    <input type="text" id="estadoNuevo" class="form-control">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" id="buttonGuardarNuevo" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <fieldset>
     <legend>Guardar Datos</legend>
     <form id="frmGuardarReserva" class="row g-3">
         <div class="col-md-6">
@@ -39,7 +71,7 @@
         </div>
     </div>
 </fieldset>
-
+ *@
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
