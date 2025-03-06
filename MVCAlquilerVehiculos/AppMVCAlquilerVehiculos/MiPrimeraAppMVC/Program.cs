@@ -1,15 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MiPrimeraAppMVC.Data;
-using CapaDatos;
-using CapaPresentacion;
-using Microsoft.AspNetCore.Mvc.ApplicationParts;
-using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using MiPrimeraAppMVC;
-using System.Web.Http.Dispatcher;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
 using Microsoft.Extensions.FileProviders;
+using CapaDatos;
+using CapaEntidad;
+using MiPrimeraAppMVC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,16 +14,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer((new CadenaDAL()).cadena));
 
-// Autenticación
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
-    options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+// Autenticaciï¿½n
+builder.Services.AddIdentity<UsuarioCLS, IdentityRole>(options =>
+    options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultUI()
+    .AddDefaultTokenProviders();
+
 
 builder.Services
     .AddControllersWithViews()
     .AddRazorRuntimeCompilation();
 
-// Capa Presentación
+// Capa Presentaciï¿½n
 // https://stackoverflow.com/questions/34236850/asp-net-mvc-6-view-components-in-a-separate-assembly/61158913#61158913
 // https://github.com/dotnet/AspNetCore.Docs/issues/14593
 builder.Services.Configure<MvcRazorRuntimeCompilationOptions>(options =>
@@ -38,9 +37,25 @@ builder.Services.Configure<MvcRazorRuntimeCompilationOptions>(options =>
     }
 );
 
+// Roles usuarios
+builder.Services.AddAuthorization(options =>
+    {
+        options.AddPolicy("RequireEmpleadoRole", policy => policy.RequireRole("Empleado"));
+    }
+);
+
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+// Asignar roles por defecto
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var userManager = services.GetRequiredService<UserManager<UsuarioCLS>>();
+    PopularDatos.Inicializar(services, userManager).Wait();
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
