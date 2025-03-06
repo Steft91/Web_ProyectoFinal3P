@@ -54,6 +54,7 @@
                     <li class="nav-item"><a asp-area="" asp-controller="Pago" asp-action="Index" class="nav-link">Pago</a></li>
                     <li class="nav-item"><a asp-area="" asp-controller="Seguro" asp-action="Index" class="nav-link">Seguro</a></li>
                     <li class="nav-item"><a asp-area="" asp-controller="Empleado" asp-action="Index" class="nav-link">Empleado</a></li>
+                    @await Html.PartialAsync("_LoginPartial")
                 </ul>
             </div>
         </div>
