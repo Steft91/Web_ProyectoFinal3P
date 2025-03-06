@@ -5,6 +5,39 @@
 
 <h1>Seguro</h1>
 
+<fieldset>
+    <legend>Guardar Datos</legend>
+    <form id="frmGuardarSeguro" class="row g-3">
+        <div class="col-md-6">
+            <label for="idSeguro" class="form-label">ID Seguro</label>
+            <input type="text" class="form-control" name="idSeguro" id="idSeguro">
+        </div>
+        <div class="col-md-6">
+            <label for="idReserva" class="form-label">ID Reserva</label>
+            <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
+        </div>
+        <div class="col-12">
+            <label for="tipoSeguro" class="form-label">Tipo de Seguro</label>
+            <input type="text" class="form-control" id="tipoSeguro" name="tipoSeguro" placeholder="Tipo de Seguro">
+        </div><div class="col-md-6">
+            <label for="costo" class="form-label">Costo</label>
+            <input type="text" class="form-control" name="costo" id="costo" placeholder="Costo">
+        </div>
+
+    </form>
+
+    <div class="row g-3">
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
+            <button type="button" class="btn btn-danger" onclick="LimpiarSeguro()">Limpiar</button>
+        </div>
+    </div>
+
+
+
+</fieldset>
+
+
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
