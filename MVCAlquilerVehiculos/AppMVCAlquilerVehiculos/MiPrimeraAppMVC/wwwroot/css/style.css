@@ -10092,3 +10092,24 @@ body.dark .nav-pills .nav-link.active, body.dark .nav-pills .show > .nav-link {
 body.dark .request-form .form-control {
     background: transparent !important;
 }
+
+body.dark .modal-content {
+    background-color: var(--bg-nav-dark) !important;
+}
+
+
+body.dark .modal-header {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+body.dark .modal-footer {
+    border-top: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+body.dark div:where(.swal2-container) div:where(.swal2-popup) {
+    background: var(--bg-nav-dark) !important;
+}
+
+body.dark div:where(.swal2-container) div:where(.swal2-html-container) {
+    color: rgb(255, 255, 255, 0.8) !important;
+}
