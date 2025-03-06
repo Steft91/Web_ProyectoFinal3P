@@ -2,12 +2,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Pago</h1>
-
-@* <div class="input-group">
-    <input id="txtPago" type="text" class="form-control" onkeyup="filtrarPago()" placeholder="Ingresar pago a buscar" aria-label="Recipient's username with two button addons">
-
-</div> *@
+<div class="container my-5">
+    <h1>Pago</h1>
+    <div id="divTable">
+    </div>
+</div>
 
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -42,45 +41,6 @@
             </div>
         </div>
     </div>
-</div>
-
-
-@* <fieldset>
-    <legend>Guardar Datos</legend>
-    <form id="frmGuardarReserva" class="row g-3">
-        <div class="col-md-6">
-            <label for="idReserva" class="form-label">id Pago</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva">
-        </div>
-        <div class="col-md-6">
-            <label for="idReserva" class="form-label">Id Reserva</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
-        </div>
-        <div class="col-12">
-            <label for="idVehiculo" class="form-label">Monto</label>
-            <input type="text" class="form-control" id="idVehiculo" name="idVehiculo" placeholder="idVehiculo">
-        </div><div class="col-md-6">
-            <label for="metodoPago" class="form-label">Metodo de pago</label>
-            <input type="text" class="form-control" name="metodoPago" id="metodoPago" placeholder="metodo de Pago">
-        </div>
-        <div class="col-12">
-            <label for="fechaPago" class="form-label">fecha Pago</label>
-            <input type="text" class="form-control" id="fechaPago" name="fechaPago" placeholder="fecha Pago">
-        </div>
-    </form>
-
-    <div class="row g-3">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary" onclick="GuardarPago()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarPago()">Limpiar</button>
-        </div>
-    </div>
-
-
-
-</fieldset>
- *@
-<div id="divTable">
 </div>
 
 <script src="~/js/generico.js"></script>

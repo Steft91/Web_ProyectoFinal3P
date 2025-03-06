@@ -2,43 +2,47 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Reserva</h1>
+<div class="container my-5">
+    <h1>Reserva</h1>
+    <fieldset>
+        <legend>Guardar Datos</legend>
+        <form id="frmGuardarReserva" class="row g-3">
+            <div class="col-md-6">
+                <label for="idReserva" class="form-label">Id Reserva</label>
+                <input type="text" class="form-control" name="idReserva" id="idReserva">
+            </div>
+            <div class="col-md-6">
+                <label for="idReserva" class="form-label">Id Cliente</label>
+                <input type="text" class="form-control" name="idReserva" id="idReserva">
+            </div>
+            <div class="col-12">
+                <label for="idVehiculo" class="form-label">Id Vehiculo</label>
+                <input type="text" class="form-control" id="idVehiculo" name="idVehiculo" placeholder="idVehiculo">
+            </div><div class="col-md-6">
+                <label for="fechaInicio" class="form-label">Fecha Inicio</label>
+                <input type="text" class="form-control" name="fechaInicio" id="fechaInicio">
+            </div>
+            <div class="col-12">
+                <label for="fechaFin" class="form-label">fecha Fin</label>
+                <input type="text" class="form-control" id="fechaFin" name="fechaFin" placeholder="fecha Fin">
+            </div>
+            <div class="col-12">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado">
+            </div>
+        </form>
 
-<fieldset>
-    <legend>Guardar Datos</legend>
-    <form id="frmGuardarReserva" class="row g-3">
-        <div class="col-md-6">
-            <label for="idReserva" class="form-label">Id Reserva</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva">
+        <div class="row g-3">
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary" onclick="GuardarReserva()" id="buttonGuardar">Guardar</button>
+                <button type="button" class="btn btn-danger" onclick="LimpiarReserva()">Limpiar</button>
+            </div>
         </div>
-        <div class="col-md-6">
-            <label for="idReserva" class="form-label">Id Cliente</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva">
-        </div>
-        <div class="col-12">
-            <label for="idVehiculo" class="form-label">Id Vehiculo</label>
-            <input type="text" class="form-control" id="idVehiculo" name="idVehiculo" placeholder="idVehiculo">
-        </div><div class="col-md-6">
-            <label for="fechaInicio" class="form-label">Fecha Inicio</label>
-            <input type="text" class="form-control" name="fechaInicio" id="fechaInicio">
-        </div>
-        <div class="col-12">
-            <label for="fechaFin" class="form-label">fecha Fin</label>
-            <input type="text" class="form-control" id="fechaFin" name="fechaFin" placeholder="fecha Fin">
-        </div>
-        <div class="col-12">
-            <label for="estado" class="form-label">Estado</label>
-            <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado">
-        </div>
-    </form>
+    </fieldset>
 
-    <div class="row g-3">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary" onclick="GuardarReserva()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarReserva()">Limpiar</button>
-        </div>
+    <div id="divTable">
     </div>
-</fieldset>
+</div>
 
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -77,14 +81,6 @@
             </div>
         </div>
     </div>
-</div>
-
-@* <div class="input-group">
-    <input id="txtReserva" type="text" class="form-control" onkeyup="filtrarReserva()" placeholder="Ingresar Reserva a buscar" aria-label="Recipient's username with two button addons">
-
-</div>
- *@
-<div id="divTable">
 </div>
 
 <script src="~/js/generico.js"></script>

@@ -3,40 +3,44 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Seguro</h1>
+<div class="container my-5">
+    <h1>Seguro</h1>
 
-<fieldset>
-    <legend>Guardar Datos</legend>
-    <form id="frmGuardarSeguro" class="row g-3">
-        <div class="col-md-6">
-            <label for="idSeguro" class="form-label">ID Seguro</label>
-            <input type="text" class="form-control" name="idSeguro" id="idSeguro">
-        </div>
-        <div class="col-md-6">
-            <label for="idReserva" class="form-label">ID Reserva</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
-        </div>
-        <div class="col-12">
-            <label for="tipoSeguro" class="form-label">Tipo de Seguro</label>
-            <input type="text" class="form-control" id="tipoSeguro" name="tipoSeguro" placeholder="Tipo de Seguro">
-        </div><div class="col-md-6">
-            <label for="costo" class="form-label">Costo</label>
-            <input type="text" class="form-control" name="costo" id="costo" placeholder="Costo">
+    <fieldset>
+        <legend>Guardar Datos</legend>
+        <form id="frmGuardarSeguro" class="row g-3">
+            <div class="col-md-6">
+                <label for="idSeguro" class="form-label">ID Seguro</label>
+                <input type="text" class="form-control" name="idSeguro" id="idSeguro">
+            </div>
+            <div class="col-md-6">
+                <label for="idReserva" class="form-label">ID Reserva</label>
+                <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
+            </div>
+            <div class="col-12">
+                <label for="tipoSeguro" class="form-label">Tipo de Seguro</label>
+                <input type="text" class="form-control" id="tipoSeguro" name="tipoSeguro" placeholder="Tipo de Seguro">
+            </div><div class="col-md-6">
+                <label for="costo" class="form-label">Costo</label>
+                <input type="text" class="form-control" name="costo" id="costo" placeholder="Costo">
+            </div>
+
+        </form>
+
+        <div class="row g-3">
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
+                <button type="button" class="btn btn-danger" onclick="LimpiarSeguro()">Limpiar</button>
+            </div>
         </div>
 
-    </form>
 
-    <div class="row g-3">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarSeguro()">Limpiar</button>
-        </div>
+
+    </fieldset>
+
+    <div id="divTable">
     </div>
-
-
-
-</fieldset>
-
+</div>
 
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -71,47 +75,6 @@
     </div>
 </div>
 
-@* <div class="input-group">
-    <input id="txtSeguro" type="text" class="form-control" onkeyup="filtarSeguro()" placeholder="Ingresar Seguro a buscar" aria-label="Recipient's username with two button addons">
-    
-</div>
-
-<fieldset>
-    <legend>Guardar Datos</legend>
-    <form id="frmGuardarSeguro" class="row g-3">
-        <div class="col-md-6">
-            <label for="idSeguro" class="form-label">id Seguro</label>
-            <input type="text" class="form-control" name="idSeguro" id="idSeguro">
-        </div>
-        <div class="col-md-6">
-            <label for="id Reserva" class="form-label">id Reserva</label>
-            <input type="text" class="form-control" name="idReserva" id="idReserva">
-        </div>
-        <div class="col-md-6">
-            <label for="anio" class="form-label">tipo Seguro</label>
-            <input type="text" class="form-control" name="tipoSeguro" id="tipoSeguro">
-        </div>
-        <div class="col-12">
-            <label for="costo" class="form-label">Costo</label>
-            <input type="text" class="form-control" id="costo" name="costo" placeholder="costo">
-        </div>        
-
-    </form>
-
-   <div class="row g-3">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarSeguro()">Limpiar</button>
-        </div>
-   </div>
-
-    
-
-</fieldset>
- *@
-<div id="divTable">
-
-</div>
 
 <script src="~/js/generico.js"></script>
 <script src="~/js/seguro.js"></script>

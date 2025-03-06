@@ -330,3 +330,21 @@
 
 })(jQuery);
 
+// Nuevo
+
+// Modo oscuro
+const chk = document.getElementById('chk');
+
+if (localStorage.getItem("dark-mode")) {
+	document.body.classList.add("dark");
+    chk.checked = true;
+}
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+	if (document.body.classList.contains('dark')) {
+        localStorage.setItem("dark-mode", true);
+    } else {
+		localStorage.removeItem("dark-mode");
+    }
+});

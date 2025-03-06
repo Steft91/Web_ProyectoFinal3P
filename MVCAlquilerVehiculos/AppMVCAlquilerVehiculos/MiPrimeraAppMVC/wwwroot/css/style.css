@@ -9951,3 +9951,144 @@ textarea.form-control {
 main.pt {
     padding-top: 80px;
 }
+
+
+/* Nuevos estilos */
+#switch {
+    margin-left: 20px;
+}
+
+#switch .checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+#switch .label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+}
+
+#switch .label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+#switch .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+
+#switch .fa-moon {
+    color: #f1c40f;
+}
+
+#switch .fa-sun {
+    color: #f39c12;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Modo oscuro */
+
+
+:root {
+    --bg-nav-dark: hsl(0, 0%, 16%);
+    --body-bg-dark: hsl(0, 0%, 5%);
+}
+
+body.dark {
+    background: var(--body-bg-dark) !important;
+}
+
+body.dark #ftco-navbar.scrolled {
+    background: var(--bg-nav-dark) !important;
+}
+
+body.dark #ftco-navbar.scrolled .navbar-brand {
+    color: white;
+}
+
+body.dark #ftco-navbar.scrolled .nav-link {
+    color: white !important;
+}
+
+body.dark #ftco-navbar.scrolled .nav-item.active > a {
+    color: #1089ff !important;
+}
+
+body.dark .bg-light {
+    background: var(--body-bg-dark) !important;
+}
+
+body.dark .ftco-degree-bg:after {
+    background: var(--body-bg-dark) !important;
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark .h1, body.dark .h2, body.dark .h3, body.dark .h4, body.dark .h5 {
+    color: rgb(255, 255, 255, 1);
+}
+
+body.dark .services-wrap {
+    background: var(--bg-nav-dark) !important;
+}
+
+body.dark .car-wrap {
+    background: var(--bg-nav-dark) !important;
+}
+
+body.dark .car-wrap .text h2 a {
+    color: white !important;
+}
+
+body.dark .car-wrap .text span.cat {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+body.dark .car-wrap .text .price span {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+body.dark .form-control {
+    background: var(--bg-nav-dark) !important;
+    color: white !important;
+    border-color: rgb(255, 255, 255, 0.4) !important;
+}
+
+body.dark .form-control:focus, body.dark .form-control:active {
+    border-color: white !important;
+}
+
+body.dark .nav-pills li a {
+    color: rgb(255, 255, 255, 0.8) !important;
+}
+
+body.dark .nav-pills .nav-link.active, body.dark .nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: #007bff !important;
+}
+
+/*body.dark .ftco-intro .overlay {
+    background: var(--body-bg-dark) !important;
+}*/
+
+body.dark .request-form .form-control {
+    background: transparent !important;
+}

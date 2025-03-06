@@ -3,51 +3,52 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Vehiculo</h1>
+<div class="container my-5">
+    <h1>Vehiculo</h1>
 
-@* <div class="input-group">
-    <input id="txtVehiculo" type="text" class="form-control" onkeyup="filtrarVehiculos()" placeholder="Ingresar vehiculo a buscar" aria-label="Recipient's username with two button addons">
-    
-</div> *@
+    <fieldset>
+        <legend>Guardar Datos</legend>
+        <form id="frmGuardarVehiculo" class="row g-3">
+            <div class="col-md-6">
+                <label for="idVehiculo" class="form-label">ID Vehiculo</label>
+                <input type="text" class="form-control" name="idVehiculo" id="idVehiculo">
+            </div>
+            <div class="col-md-6">
+                <label for="marca" class="form-label">Marca</label>
+                <input type="text" class="form-control" name="marca" id="marca" placeholder="marca">
+            </div>
+            <div class="col-12">
+                <label for="modelo" class="form-label">Modelo</label>
+                <input type="text" class="form-control" id="modelo" name="modelo" placeholder="modelo">
+            </div><div class="col-md-6">
+                <label for="anio" class="form-label">Año</label>
+                <input type="text" class="form-control" name="anio" id="anio" placeholder="Año">
+            </div>
+            <div class="col-12">
+                <label for="precio" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="precio" name="precio" placeholder="Precio">
+            </div>
+            <div class="col-12">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="estado" name="estado" placeholder="estado">
+            </div>
+        </form>
 
-<fieldset>
-    <legend>Guardar Datos</legend>
-    <form id="frmGuardarVehiculo" class="row g-3">
-        <div class="col-md-6">
-            <label for="idVehiculo" class="form-label">ID Vehiculo</label>
-            <input type="text" class="form-control" name="idVehiculo" id="idVehiculo">
+        <div class="row g-3">
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary" onclick="GuardarVehiculo()" id="buttonGuardar">Guardar</button>
+                <button type="button" class="btn btn-danger" onclick="LimpiarVehiculo()">Limpiar</button>
+            </div>
         </div>
-        <div class="col-md-6">
-            <label for="marca" class="form-label">Marca</label>
-            <input type="text" class="form-control" name="marca" id="marca" placeholder="marca">
-        </div>
-        <div class="col-12">
-            <label for="modelo" class="form-label">Modelo</label>
-            <input type="text" class="form-control" id="modelo" name="modelo" placeholder="modelo">
-        </div><div class="col-md-6">
-            <label for="anio" class="form-label">Año</label>
-            <input type="text" class="form-control" name="anio" id="anio" placeholder="Año">
-        </div>
-        <div class="col-12">
-            <label for="precio" class="form-label">Precio</label>
-            <input type="text" class="form-control" id="precio" name="precio" placeholder="Precio">
-        </div>
-        <div class="col-12">
-            <label for="estado" class="form-label">Estado</label>
-            <input type="text" class="form-control" id="estado" name="estado" placeholder="estado">
-        </div>
-    </form>
 
-    <div class="row g-3">
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-primary" onclick="GuardarVehiculo()" id="buttonGuardar">Guardar</button>
-            <button type="button" class="btn btn-danger" onclick="LimpiarVehiculo()">Limpiar</button>
-        </div>
+
+
+    </fieldset>
+
+    <div id="divTable">
     </div>
 
-
-
-</fieldset>
+</div>
 
 <div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -88,9 +89,6 @@
     </div>
 </div>
 
-<div id="divTable">
-
-</div>
 
 <script src="~/js/generico.js"></script>
 <script src="~/js/vehiculo.js"></script>
