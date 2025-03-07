@@ -161,7 +161,18 @@ function generarTabla(res) {
         contenido += "<tr>";
         for (let j = 0; j < propiedades.length; j++) {
             propiedadActual = propiedades[j];
-            contenido += "<td>" + obj[propiedadActual] + "</td>";
+            const esImagen = objConfiguracionGlobal.propiedadesImg != undefined && objConfiguracionGlobal.propiedadesImg.includes(propiedadActual);
+            if (esImagen) {
+                if (obj[propiedadActual] != "") {
+                    contenido += "<td><img src='data:image/png;base64," + obj[propiedadActual] + "' width='auto' height='70' /></td>";
+                } else {
+                    contenido += "<td>(Vacío)</td>";
+                }
+                
+            } else {
+                contenido += "<td>" + obj[propiedadActual] + "</td>";
+            }
+            
         }
         if (objConfiguracionGlobal.editar == true || objConfiguracionGlobal.eliminar == true) {
             let propiedadId = objConfiguracionGlobal.propiedadId

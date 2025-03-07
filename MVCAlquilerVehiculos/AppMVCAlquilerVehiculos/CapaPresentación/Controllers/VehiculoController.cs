@@ -2,6 +2,7 @@
 using CapaEntidad;
 using CapaNegocios;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CapaPresentacion.Controllers
@@ -14,7 +15,6 @@ namespace CapaPresentacion.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Empleado")]
         public List<VehiculoCLS> listarVehiculo()
         {
             VehiculoDAL obj = new VehiculoDAL();
@@ -29,10 +29,25 @@ namespace CapaPresentacion.Controllers
         }
 
         [Authorize(Roles = "Empleado")]
-        public int GuardarVehiculo(VehiculoCLS oVehiculoCLS)
+        public async Task<int> GuardarVehiculo(VehiculoCLS oVehiculoCLS, IFormFile imagen)
         {
             VehiculoBL obj = new VehiculoBL();
-            return obj.GuardarVehiculo(oVehiculoCLS);
+            if (imagen != null && imagen.Length > 0)
+            {
+                System.Console.WriteLine("file length: " + imagen.Length);
+                byte[] fileBytes;
+
+                using (var memoryStream = new MemoryStream())
+                {
+                    await imagen.CopyToAsync(memoryStream);
+                    fileBytes = memoryStream.ToArray();
+                    oVehiculoCLS.imagen = fileBytes;
+                }
+            } else
+            {
+                oVehiculoCLS.imagen = Array.Empty<byte>();
+            }
+                return obj.GuardarVehiculo(oVehiculoCLS);
 
         }
 

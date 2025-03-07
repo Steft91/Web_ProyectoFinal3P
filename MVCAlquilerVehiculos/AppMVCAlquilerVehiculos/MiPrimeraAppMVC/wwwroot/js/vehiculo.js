@@ -18,8 +18,9 @@ let objVehiculo;
 async function listarVehiculo() {
     objVehiculo = {
         url: "Vehiculo/listarVehiculo",
-        cabeceras: ["Id Vehiculo", "Marca", "Modelo", "Año", "Precio", "Estado"],
-        propiedades: ["idVehiculo", "marca", "modelo", "anio", "precio", "estado"],
+        cabeceras: ["Id Vehiculo", "Marca", "Modelo", "Año", "Precio", "Estado", "Imagen"],
+        propiedades: ["idVehiculo", "marca", "modelo", "anio", "precio", "estado", "imagen"],
+        propiedadesImg: ["imagen"],
         editar : true,
         eliminar: true,
         propiedadId: "idVehiculo"
@@ -68,7 +69,7 @@ function GuardarVehiculo() {
     
     if (idVehiculoInput.value != "") {
         Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
-            fetchPut("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
+            fetchPost("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
         });
     } else {
         fetchPost("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
