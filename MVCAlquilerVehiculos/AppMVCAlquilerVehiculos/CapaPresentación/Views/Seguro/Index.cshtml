@@ -6,55 +6,25 @@
 <div class="container my-5">
     <h1>Seguro</h1>
 
-    <fieldset>
-        <legend>Guardar Datos</legend>
-        <form id="frmGuardarSeguro" class="row g-3">
-            <div class="col-md-6">
-                <label for="idSeguro" class="form-label">ID Seguro</label>
-                <input type="text" class="form-control" name="idSeguro" id="idSeguro">
-            </div>
-            <div class="col-md-6">
-                <label for="idReserva" class="form-label">ID Reserva</label>
-                <input type="text" class="form-control" name="idReserva" id="idReserva" placeholder="id Reserva">
-            </div>
-            <div class="col-12">
-                <label for="tipoSeguro" class="form-label">Tipo de Seguro</label>
-                <input type="text" class="form-control" id="tipoSeguro" name="tipoSeguro" placeholder="Tipo de Seguro">
-            </div><div class="col-md-6">
-                <label for="costo" class="form-label">Costo</label>
-                <input type="text" class="form-control" name="costo" id="costo" placeholder="Costo">
-            </div>
-
-        </form>
-
-        <div class="row g-3">
-            <div class="d-grid gap-2">
-                <button type="button" class="btn btn-primary" onclick="GuardarSeguro()" id="buttonGuardar">Guardar</button>
-                <button type="button" class="btn btn-danger" onclick="LimpiarSeguro()">Limpiar</button>
-            </div>
-        </div>
-
-
-
-    </fieldset>
+    <button id="btnNuevoSeguro" class="btn btn-primary">Nuevo Seguro</button>
 
     <div id="divTable">
     </div>
 </div>
 
-<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+<div class="modal fade" id="modalSeguro" tabindex="-1" aria-labelledby="modalSeguroLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <h5 class="modal-title" id="modalSeguroLabel">Actualizar Seguro</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmGuardarSeguro">
+                <form id="frmSeguro">
                     <input type="hidden" name="idSeguro" id="idSeguro">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">id Reserva</label>
-                        <input type="text" name="idReserva" class="form-control" id="idReserva" value="">
+                        <input type="number" name="idReserva" class="form-control" id="idReserva">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">tipo Seguro</label>
@@ -62,7 +32,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">costo</label>
-                        <input type="text" name="costo" class="form-control" id="costo" value="">
+                        <input type="number" name="costo" class="form-control" id="costo" value="">
                     </div>
 
                 </form>

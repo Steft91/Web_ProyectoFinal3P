@@ -4,19 +4,21 @@
 
 <div class="container my-5">
     <h1>Cliente</h1>
+    <button id="btnNuevoCliente" class="btn btn-primary">Nuevo Cliente</button>
+
     <div id="divTable">
     </div>
 </div>
 
-<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+<div class="modal fade" id="modalCliente" tabindex="-1" aria-labelledby="modalClienteLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Cliente</h5>
+                <h5 class="modal-title" id="modalClienteLabel">Actualizar Cliente</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmGuardarCliente">
+                <form id="frmCliente">
                     <input type="hidden" name="idCliente" id="idCliente">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">nombre</label>
@@ -27,11 +29,11 @@
                         <input type="text" name="apellido" class="form-control" id="apellido" value="">
                     </div><div class="mb-3">
                         <label for="nombre" class="form-label">telefono</label>
-                        <input type="text" name="telefono" class="form-control" id="telefono" value="">
+                        <input type="tel" name="telefono" class="form-control" id="telefono" value="">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">email</label>
-                        <input type="text" name="email" class="form-control" id="email" value="">
+                        <input type="email" name="email" class="form-control" id="email" value="">
                     </div>
                 </form>
             </div>

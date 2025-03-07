@@ -36,50 +36,47 @@ function Buscar() {
 
 const idClienteInput = document.getElementById("idCliente");
 const guardarBtn = document.getElementById("buttonGuardar");
+const modalTitle = document.getElementById("modalClienteLabel");
+
+
+document.getElementById("btnNuevoCliente").addEventListener("click", function () {
+    LimpiarCliente();
+    guardarBtn.innerText = "Crear";
+    modalTitle.innerText = "Nuevo Cliente";
+    idClienteInput.value = "";
+
+    $("#modalCliente").modal("show");
+});
+
 function GuardarCliente() {
-    const frmGuardar = new FormData(document.getElementById("frmGuardarCliente"));
+    const frmGuardar = new FormData(document.getElementById("frmCliente"));
 
     const callback = (res) => {
         const resInt = parseInt(res);
         if (resInt == 1) {
             listarCliente();
-            LimpiarDatos("frmGuardarCliente");
+            LimpiarDatos("frmCliente");
+            $("#modalCliente").modal("hide");
 
-            // Cerrar el modal después de actualizar
-            $("#modalActualizar").modal("hide");
+            ExitoToast("Registro guardado con éxito");
+        } else {
+            ErrorToast();
         }
     };
 
-    Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
-        if (idClienteInput.value != "") {
+
+    if (idClienteInput.value != "") {
+        Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
             fetchPut("Cliente/GuardarCliente", "text", frmGuardar, callback);
-        } else {
-            fetchPost("Cliente/GuardarCliente", "text", frmGuardar, callback);
-        }
-    });
-    //const frm = new FormData(document.getElementById("frmGuardarCliente"));
-    //const callback = (res) => {
-    //    const resInt = parseInt(res);
-    //    if (resInt == 1) {
-    //        listarCliente();
-    //        LimpiarDatos("frmGuardarCliente");
-    //        guardarBtn.innerText = "Guardar";
-
-    //    }
-    //}
-
-    //if (idClienteInput.value != "") {
-    //    fetchPut("Cliente/GuardarCliente", "text", frm, callback);
-    //} else {
-    //    fetchPost("Cliente/GuardarCliente", "text", frm, callback);
-    //}
-
+        });
+    } else {
+        fetchPost("Cliente/GuardarCliente", "text", frmGuardar, callback);
+    }
 }
 
-
-function nuevoPago() {
-    LimpiarPago();
-    modalActualizar.show();
+function nuevoCliente() {
+    LimpiarCliente();
+    modalCliente.show();
 }
 
 function Exito() {
@@ -93,82 +90,36 @@ function Exito() {
 }
 
 function LimpiarCliente() {
-    LimpiarDatos("frmGuardarCliente");
-    guardarBtn.innerText = "Guardar";
+    LimpiarDatos("frmCliente");
 }
 
-function Editar(id) {
-    fetchGet("Cliente/recuperarCliente/?idCliente=" + id, "json", function (data) {
-        if (data) {
-            console.log("Datos recuperados:", data);
+async function Editar(id) {
+    LimpiarCliente();
 
-            document.getElementById("idCliente").value = data.idCliente || "";
-            document.getElementById("nombre").value = data.nombre || "";
-            document.getElementById("apellido").value = data.apellido || "";
-            document.getElementById("telefono").value = data.telefono || "";
-            document.getElementById("email").value = data.email || "";
+    recuperarGenerico("Cliente/recuperarCliente/?idCliente=" + id, "frmCliente");
 
-            document.querySelector("#modalActualizar #idCliente").value = data.idCliente || "";
-            document.querySelector("#modalActualizar #nombre").value = data.nombre || "";
-            document.querySelector("#modalActualizar #apellido").value = data.apellido || "";
-            document.querySelector("#modalActualizar #telefono").value = data.telefono || "";
-            document.querySelector("#modalActualizar #email").value = data.email || "";
-
-            document.getElementById("nombre").dispatchEvent(new Event('input'));
-            document.getElementById("apellido").dispatchEvent(new Event('input'));
-            document.getElementById("telefono").dispatchEvent(new Event('input'));
-            document.getElementById("email").dispatchEvent(new Event('input'));
-
-            document.querySelector("#modalActualizar #nombre").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #apellido").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #telefono").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #email").dispatchEvent(new Event('input'));
-
-            guardarBtn.innerText = "Actualizar";
-
-            $("#modalActualizar").modal("show");
-        } else {
-            alert("No se pudo recuperar la información del cliente.");
-        }
-    });
-
-
-    //guardarBtn.innerText = "Actualizar";
-    ////recuperarGenerico("Cliente/recuperarTipoMedicamento/?idTipoMedicamento=" + id,"frmGuardarTipoMedicamento");
-    //fetchGet("Cliente/recuperarCliente/?idCliente=" + id, "json", function (data) {
-    //    setN("idCliente", data.idCliente)
-    //    setN("nombre", data.nombre)
-    //    setN("apellido", data.apellido)
-    //    setN("telefono", data.telefono)
-    //    setN("email", data.email)
-
-    //});
+    guardarBtn.innerText = "Actualizar";
+    modalTitle.innerText = "Actualizar Cliente";
+    $("#modalCliente").modal("show");
 }
 
 function Eliminar(id) {
-    Confirmacion("Confirmación", "¿Está seguro de que desea eliminar este cliente?", function () {
+    Confirmacion("Confirmación", "¿Está seguro de que desea eliminar este Cliente?", function () {
         fetchDelete("Cliente/EliminarCliente/?idCliente=" + id, "text", function (res) {
             const resInt = parseInt(res);
             if (resInt === 1) {
                 listarCliente();
                 LimpiarDatos();
 
-                if ($("#modalActualizar").length > 0) {
-                    $("#modalActualizar").modal("hide");
+                if ($("#modalCliente").length > 0) {
+                    $("#modalCliente").modal("hide");
                 }
 
                 Swal.fire("Eliminado", "El Cliente se eliminó correctamente", "success");
             } else {
-                Swal.fire("Error", "No se pudo eliminar el cliente", "error");
+                Swal.fire("Error", "No se pudo eliminar el Cliente", "error");
             }
         });
     });
-    //const deleteAns = confirm("¿Está seguro de eliminar este dato?");
-    //if (!deleteAns) return;
 
-    //fetchDelete("Cliente/EliminarCliente/?idCliente=" + id, "text", (res) => {
-    //    if (parseInt(res) == 1) {
-    //        listarCliente();
-    //    }
-    //});
 }

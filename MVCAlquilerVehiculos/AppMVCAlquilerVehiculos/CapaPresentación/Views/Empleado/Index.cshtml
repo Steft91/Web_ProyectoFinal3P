@@ -4,20 +4,20 @@
 
 <div class="container my-5">
     <h1>Empleado</h1>
-
+    <button id="btnNuevoEmpleado" class="btn btn-primary">Nuevo Empleado</button>
     <div id="divTable">
     </div>
 </div>
 
-<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+<div class="modal fade" id="modalEmpleado" tabindex="-1" aria-labelledby="modalEmpleadoLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <h5 class="modal-title" id="modalEmpleadoLabel">Actualizar Empleado</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmGuardarEmpleado">
+                <form id="frmEmpleado">
                     <input type="hidden" name="idEmpleado" id="idEmpleado">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">nombre Empleado</label>
@@ -33,11 +33,11 @@
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">telefono Empleado</label>
-                        <input type="text" name="telefonoEmpleado" class="form-control" id="telefonoEmpleado" value="">
+                        <input type="tel" name="telefonoEmpleado" class="form-control" id="telefonoEmpleado" value="">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">email Empleado</label>
-                        <input type="text" name="emailEmpleado" class="form-control" id="emailEmpleado" value="">
+                        <input type="email" name="emailEmpleado" class="form-control" id="emailEmpleado" value="">
                     </div>
                 </form>
             </div>

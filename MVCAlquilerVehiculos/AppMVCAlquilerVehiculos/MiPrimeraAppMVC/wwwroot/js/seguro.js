@@ -37,48 +37,45 @@ function Buscar() {
 
 const idSeguroInput = document.getElementById("idSeguro");
 const guardarBtn = document.getElementById("buttonGuardar");
+const modalTitle = document.getElementById("modalSeguroLabel");
+
+document.getElementById("btnNuevoSeguro").addEventListener("click", function () {
+    LimpiarSeguro();
+    guardarBtn.innerText = "Crear";
+    modalTitle.innerText = "Nuevo Seguro";
+    idSeguroInput.value = "";
+
+    $("#modalSeguro").modal("show");
+});
 function GuardarSeguro() {
-    const frmGuardar = new FormData(document.getElementById("frmGuardarSeguro"));
+    const frmGuardar = new FormData(document.getElementById("frmSeguro"));
 
     const callback = (res) => {
         const resInt = parseInt(res);
         if (resInt == 1) {
             listarSeguro();
-            LimpiarDatos("frmGuardarSeguro");
+            LimpiarDatos("frmSeguro");
+            $("#modalSeguro").modal("hide");
 
-            // Cerrar el modal después de actualizar
-            $("#modalActualizar").modal("hide");
+            ExitoToast("Registro guardado con éxito");
+        } else {
+            ErrorToast();
         }
     };
 
-    Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
-        if (idSeguroInput.value != "") {
+    if (idSeguroInput.value != "") {
+        Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
             fetchPut("Seguro/GuardarSeguro", "text", frmGuardar, callback);
-        } else {
-            fetchPost("Seguro/GuardarSeguro", "text", frmGuardar, callback);
-        }
-    });
-    //const frm = new FormData(document.getElementById("frmGuardarSeguro"));
-    //const callback = (res) => {
-    //    const resInt = parseInt(res);
-    //    if (resInt == 1) {
-    //        listarSeguro();
-    //        LimpiarDatos("frmGuardarSeguro");
-    //        guardarBtn.innerText = "Guardar";
-    //    }
-    //}
-
-    //if (idSeguroInput.value != "") {
-    //    fetchPut("Seguro/GuardarSeguro", "text", frm, callback);
-    //} else {
-    //    fetchPost("Seguro/GuardarSeguro", "text", frm, callback);
-    //}
+        });
+    } else {
+        fetchPost("Seguro/GuardarSeguro", "text", frmGuardar, callback);
+    }
 
 }
 
-function nuevoPago() {
-    LimpiarPago();
-    modalActualizar.show();
+function nuevoSeguro() {
+    LimpiarSeguro();
+    modalSeguro.show();
 }
 
 function Exito() {
@@ -91,52 +88,18 @@ function Exito() {
     }
 }
 function LimpiarSeguro() {
-    LimpiarDatos("frmGuardarSeguro");
-    guardarBtn.innerText = "Guardar";
+    LimpiarDatos("frmSeguro");
 }
 
-function Editar(id) {
-    fetchGet("Seguro/recuperarSeguro/?idSeguro=" + id, "json", function (data) {
-        if (data) {
-            console.log("Datos recuperados:", data);
+async function Editar(id) {
+    LimpiarSeguro();
 
-            document.getElementById("idSeguro").value = data.idSeguro || "";
-            document.getElementById("idReserva").value = data.idReserva || "";
-            document.getElementById("tipoSeguro").value = data.tipoSeguro || "";
-            document.getElementById("costo").value = data.costo || "";
+    recuperarGenerico("Seguro/recuperarSeguro/?idSeguro=" + id, "frmSeguro");
 
-            document.querySelector("#modalActualizar #idSeguro").value = data.idSeguro || "";
-            document.querySelector("#modalActualizar #idReserva").value = data.idReserva || "";
-            document.querySelector("#modalActualizar #tipoSeguro").value = data.tipoSeguro || "";
-            document.querySelector("#modalActualizar #costo").value = data.costo || "";
-
-            document.getElementById("idReserva").dispatchEvent(new Event('input'));
-            document.getElementById("tipoSeguro").dispatchEvent(new Event('input'));
-            document.getElementById("costo").dispatchEvent(new Event('input'));
-
-            document.querySelector("#modalActualizar #idReserva").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #tipoSeguro").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #costo").dispatchEvent(new Event('input'));
-
-            guardarBtn.innerText = "Actualizar";
-
-            $("#modalActualizar").modal("show");
-        } else {
-            alert("No se pudo recuperar la información del seguro.");
-        }
-    });
-
-    //guardarBtn.innerText = "Actualizar";
-    ////recuperarGenerico("Seguro/recuperarSeguro/?idSeguro=" + id,"frmGuardarSeguro");
-    //fetchGet("Seguro/recuperarSeguro/?idSeguro=" + id, "json", function (data) {
-    //    setN("idSeguro", data.idSeguro)
-    //    setN("idReserva", data.idReserva)
-    //    setN("tipoSeguro", data.tipoSeguro)
-    //    setN("costo", data.costo)
-
-    //});
+    guardarBtn.innerText = "Actualizar";
+    modalTitle.innerText = "Actualizar Seguro";
+    $("#modalSeguro").modal("show");
 }
-
 function Eliminar(id) {
     Confirmacion("Confirmación", "¿Está seguro de que desea eliminar este seguro?", function () {
         fetchDelete("Seguro/eliminarSeguro/?idSeguro=" + id, "text", function (res) {
@@ -145,8 +108,8 @@ function Eliminar(id) {
                 listarSeguro();
                 LimpiarDatos();
 
-                if ($("#modalActualizar").length > 0) {
-                    $("#modalActualizar").modal("hide");
+                if ($("#modalSeguro").length > 0) {
+                    $("#modalSeguro").modal("hide");
                 }
 
                 Swal.fire("Eliminado", "El seguro se eliminó correctamente", "success");

@@ -5,65 +5,36 @@
 <div class="container my-5">
     <h1>Reserva</h1>
     <button id="btnNuevaReserva" class="btn btn-primary">Nueva Reserva</button>
-    <div id="divTable" class="mt-3">
+    <div id="divTable" >
     </div>
 </div>
 
-<div id="modalNuevaReserva" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Nueva Reserva</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form id="frmNuevaReserva">
-                    <label>Cliente</label>
-                    <input type="text" id="idClienteNuevo" class="form-control">
-                    <label>Vehículo</label>
-                    <input type="text" id="idVehiculoNuevo" class="form-control">
-                    <label>Fecha de Inicio</label>
-                    <input type="date" id="fechaInicioNuevo" class="form-control">
-                    <label>Fecha de Fin</label>
-                    <input type="date" id="fechaFinNuevo" class="form-control">
-                    <label>Estado</label>
-                    <input type="text" id="estadoNuevo" class="form-control">
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" id="buttonGuardarNuevo" class="btn btn-primary">Guardar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+<div class="modal fade" id="modalReserva" tabindex="-1" aria-labelledby="modalReservaLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Pago</h5>
+                <h5 class="modal-title" id="modalReservaLabel">Actualizar Reserva</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmGuardarReserva">
+                <form id="frmReserva">
                     <input type="hidden" name="idReserva" id="idReserva">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">id Cliente</label>
-                        <input type="text" name="idCliente" class="form-control" id="idCliente" value="">
+                        <input type="number" name="idCliente" class="form-control" id="idCliente" value="">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">id Vehiculo</label>
-                        <input type="text" name="idVehiculo" class="form-control" id="idVehiculo" value="">
-                    </div><div class="mb-3">
+                        <input type="number" name="idVehiculo" class="form-control" id="idVehiculo" value="">
+                    </div>
+                    <div class="mb-3">
                         <label for="nombre" class="form-label">fecha Inicio</label>
-                        <input type="text" name="fechaInicio" class="form-control" id="fechaInicio" value="">
+                        <input type="datetime-local" name="fechaInicio" class="form-control" id="fechaInicio" value="">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">fecha de Fin</label>
-                        <input type="text" name="fechaFin" class="form-control" id="fechaFin" value="">
+                        <input type="datetime-local" name="fechaFin" class="form-control" id="fechaFin" value="">
                     </div>
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">estado</label>

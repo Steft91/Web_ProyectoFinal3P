@@ -18,8 +18,8 @@ let objPago;
 async function listarPago() {
     objPago = {
         url: "Pago/listarPago",
-        cabeceras: ["Id Pago", "Id Pago", "Monto", "Metodo de Pago", "Fecha de Pago"],
-        propiedades: ["idPago", "idPago", "monto", "metodoPago", "fechaPago"],
+        cabeceras: ["Id Pago", "Id Reserva", "Monto", "Metodo de Pago", "Fecha de Pago"],
+        propiedades: ["idPago", "idReserva", "monto", "metodoPago", "fechaPago"],
         editar: true,
         eliminar: true,
         propiedadId: "idPago"
@@ -37,49 +37,47 @@ function Buscar() {
 
 const idPagoInput = document.getElementById("idPago");
 const guardarBtn = document.getElementById("buttonGuardar");
+const modalTitle = document.getElementById("modalPagoLabel");
+
+
+document.getElementById("btnNuevoPago").addEventListener("click", function () {
+    LimpiarPago();
+    guardarBtn.innerText = "Crear";
+    modalTitle.innerText = "Nuevo Pago";
+    idPagoInput.value = "";
+
+    $("#modalPago").modal("show");
+});
 
 function GuardarPago() {
-    const frmGuardar = new FormData(document.getElementById("frmGuardarPago"));
+    const frmGuardar = new FormData(document.getElementById("frmPago"));
 
     const callback = (res) => {
         const resInt = parseInt(res);
         if (resInt == 1) {
             listarPago();
-            LimpiarDatos("frmGuardarPago");
+            LimpiarDatos("frmPago");
+            $("#modalPago").modal("hide");
 
-            // Cerrar el modal después de actualizar
-            $("#modalActualizar").modal("hide");
+            ExitoToast("Registro guardado con éxito");
+        } else {
+            ErrorToast();
         }
     };
 
-    Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
-        if (idPagoInput.value != "") {
+
+    if (idPagoInput.value != "") {
+        Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
             fetchPut("Pago/GuardarPago", "text", frmGuardar, callback);
-        } else {
-            fetchPost("Pago/GuardarPago", "text", frmGuardar, callback);
-        }
-    });
-    //const frm = new FormData(document.getElementById("frmGuardarPago"));
-    //const callback = (res) => {
-    //    const resInt = parseInt(res);
-    //    if (resInt == 1) {
-    //        listarPago();
-    //        LimpiarDatos("frmGuardarPago");
-    //        guardarBtn.innerText = "Guardar"; 
-    //    }
-    //}
-
-    //if (idPagoInput.value != " " /*&& parseInt(idPagoInput.value) > 0*/) {
-    //    fetchPut("Pago/GuardarReserva", "text", frm, callback);
-    //} else {
-    //    fetchPost("Pago/GuardarReserva", "text", frm, callback);
-    //}
-
+        });
+    } else {
+        fetchPost("Pago/GuardarPago", "text", frmGuardar, callback);
+    }
 }
 
 function nuevoPago() {
     LimpiarPago();
-    modalActualizar.show();
+    modalPago.show();
 }
 
 function Exito() {
@@ -93,53 +91,17 @@ function Exito() {
 }
 
 function LimpiarPago() {
-    LimpiarDatos("frmGuardarPago");
-    guardarBtn.innerText = "Guardar";
+    LimpiarDatos("frmPago");
 }
 
-function Editar(id) {
-    fetchGet("Pago/recuperarPago/?idPago=" + id, "json", function (data) {
-        if (data) {
-            console.log("Datos recuperados:", data);
+async function Editar(id) {
+    LimpiarPago();
 
-            document.getElementById("idPago").value = data.idPago || "";
-            document.getElementById("idReserva").value = data.idReserva || "";
-            document.getElementById("monto").value = data.monto || "";
-            document.getElementById("metodoPago").value = data.metodoPago || "";
-            document.getElementById("fechaPago").value = data.fechaPago || "";
+    recuperarGenerico("Pago/recuperarPago/?idPago=" + id, "frmPago");
 
-            document.querySelector("#modalActualizar #idPago").value = data.idPago || "";
-            document.querySelector("#modalActualizar #idReserva").value = data.idReserva || "";
-            document.querySelector("#modalActualizar #monto").value = data.monto || "";
-            document.querySelector("#modalActualizar #metodoPago").value = data.metodoPago || "";
-            document.querySelector("#modalActualizar #fechaPago").value = data.fechaPago || "";
-
-            document.getElementById("idReserva").dispatchEvent(new Event('input'));
-            document.getElementById("monto").dispatchEvent(new Event('input'));
-            document.getElementById("metodoPago").dispatchEvent(new Event('input'));
-            document.getElementById("fechaPago").dispatchEvent(new Event('input'));
-
-            document.querySelector("#modalActualizar #idReserva").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #monto").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #metodoPago").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #fechaPago").dispatchEvent(new Event('input'));
-
-            guardarBtn.innerText = "Actualizar";
-
-            $("#modalActualizar").modal("show");
-        } else {
-            alert("No se pudo recuperar la información del pago.");
-        }
-    });
-    //guardarBtn.innerText = "Actualizar";
-    ////recuperarGenerico("Pago/recuperarTipoMedicamento/?idTipoMedicamento=" + id,"frmGuardarTipoMedicamento");
-    //fetchGet("Pago/recuperarPago/?idPago=" + id, "json", function (data) {
-    //    setN("idPago", data.idPago)
-    //    setN("idPago", data.idPago)
-    //    setN("idVehiculo", data.idVehiculo)
-    //    setN("metodoPago", data.metodoPago)
-    //    setN("fechaPago", data.fechaPago)
-    //});
+    guardarBtn.innerText = "Actualizar";
+    modalTitle.innerText = "Actualizar Pago";
+    $("#modalPago").modal("show");
 }
 
 function Eliminar(id) {
@@ -150,22 +112,14 @@ function Eliminar(id) {
                 listarPago();
                 LimpiarDatos();
 
-                if ($("#modalActualizar").length > 0) {
-                    $("#modalActualizar").modal("hide");
+                if ($("#modalPago").length > 0) {
+                    $("#modalPago").modal("hide");
                 }
 
-                Swal.fire("Eliminado", "El pago se eliminó correctamente", "success");
+                Swal.fire("Eliminado", "El Pago se eliminó correctamente", "success");
             } else {
-                Swal.fire("Error", "No se pudo eliminar el pago", "error");
+                Swal.fire("Error", "No se pudo eliminar el Pago", "error");
             }
         });
     });
-    //const deleteAns = confirm("¿Está seguro de eliminar este dato?");
-    //if (!deleteAns) return;
-
-    //fetchDelete("Pago/EliminarPago/?idPago=" + id, "text", (res) => {
-    //    if (parseInt(res) == 1) {
-    //        listarPago();
-    //    }
-    //});
 }
