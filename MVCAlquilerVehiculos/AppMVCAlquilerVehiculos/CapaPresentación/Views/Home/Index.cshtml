@@ -41,18 +41,36 @@
                             <h2>Reserva ya!</h2>
                             @if (SignInManager.IsSignedIn(User))
                             {
-                                <div class="form-group">
-                                    <label for="nombre" class="label">Nombre</label>
-                                    <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre..." required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="apellido" class="label">Apellido</label>
-                                    <input type="text" name="apellido" class="form-control" placeholder="Ingrese su apellido..." required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="telefono" class="label">Teléfono</label>
-                                    <input type="tel" name="telefono" class="form-control" placeholder="Ingrese su teléfono..." required>
-                                </div>
+                                @if (ViewData["cliente"] != null)
+                                {
+                                    <div class="form-group">
+                                        <label for="nombre" class="label">Nombre</label>
+                                        <input type="text" value='@ViewData["clienteNombre"]' name="nombre" class="form-control" placeholder="Ingrese su nombre..." required readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="apellido" class="label">Apellido</label>
+                                        <input type="text" value='@ViewData["clienteApellido"]' name="apellido" class="form-control" placeholder="Ingrese su apellido..." required readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="telefono" class="label">Teléfono</label>
+                                        <input type="tel" value='@ViewData["clienteTelefono"]' name="telefono" class="form-control" placeholder="Ingrese su teléfono..." required readonly>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="form-group">
+                                        <label for="nombre" class="label">Nombre</label>
+                                        <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre..." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="apellido" class="label">Apellido</label>
+                                        <input type="text" name="apellido" class="form-control" placeholder="Ingrese su apellido..." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="telefono" class="label">Teléfono</label>
+                                        <input type="tel" name="telefono" class="form-control" placeholder="Ingrese su teléfono..." required>
+                                    </div>
+                                }
                                 <div class="form-group">
                                     <label for="email" class="label">E-mail</label>
                                     <input type="email" name="email" value="@UserManager.GetUserName(User)" class="form-control" placeholder="Ingrese su correo electrónico..." required readonly>
