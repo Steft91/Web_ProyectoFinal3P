@@ -1,6 +1,8 @@
 ﻿using CapaDatos;
 using CapaEntidad;
+using CapaEntidad.Interfaces;
 using CapaNegocios;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -34,7 +36,6 @@ namespace CapaPresentacion.Controllers
         {
             ReservaBL obj = new ReservaBL();
             return obj.GuardarReserva(oReservaCLS);
-
         }
 
         [Authorize(Roles = "Empleado")]
@@ -43,6 +44,13 @@ namespace CapaPresentacion.Controllers
             ReservaBL obj = new ReservaBL();
             return obj.recuperarReserva(idReserva);
 
+        }
+
+        [Authorize(Roles = "Usuario")]
+        public int crearReservaUsuario([FromBody] ReservaUsuarioRequest reservaUsuarioRequest)
+        {
+            ReservaBL obj = new ReservaBL();
+            return obj.crearReservaUsuario(User.Identity.GetUserId(), reservaUsuarioRequest);
         }
 
         [Authorize(Roles = "Empleado")]

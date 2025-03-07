@@ -26,6 +26,7 @@ namespace MiPrimeraAppMVC.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<UsuarioCLS> _signInManager;
         private readonly UserManager<UsuarioCLS> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IUserStore<UsuarioCLS> _userStore;
         private readonly IUserEmailStore<UsuarioCLS> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
@@ -33,12 +34,14 @@ namespace MiPrimeraAppMVC.Areas.Identity.Pages.Account
 
         public RegisterModel(
             UserManager<UsuarioCLS> userManager,
+            RoleManager<IdentityRole> roleManager,
             IUserStore<UsuarioCLS> userStore,
             SignInManager<UsuarioCLS> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
             _userManager = userManager;
+            _roleManager = roleManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
@@ -134,6 +137,13 @@ namespace MiPrimeraAppMVC.Areas.Identity.Pages.Account
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+
+                    if (!await _roleManager.RoleExistsAsync("Usuario"))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole("Usuario"));
+                    }
+
+                    await _userManager.AddToRoleAsync(user, "Usuario");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

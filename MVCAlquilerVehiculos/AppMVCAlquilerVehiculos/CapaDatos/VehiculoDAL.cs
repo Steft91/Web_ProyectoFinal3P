@@ -33,9 +33,9 @@ namespace CapaDatos
             return rpta;
         }
 
-        public VehiculoCLS recuperarVehiculo(int idVehiculo)
+        public VehiculoCLS? recuperarVehiculo(int idVehiculo)
         {
-            VehiculoCLS oVehiculoCLS = new VehiculoCLS();
+            VehiculoCLS? oVehiculoCLS = new VehiculoCLS();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -48,7 +48,7 @@ namespace CapaDatos
                         cmd.Parameters.AddWithValue("@idVehiculo", idVehiculo);
 
                         SqlDataReader dr = cmd.ExecuteReader();
-                        if (dr != null)
+                        if (dr.HasRows)
                         {
                             while (dr.Read())
                             {
@@ -59,6 +59,9 @@ namespace CapaDatos
                                 oVehiculoCLS.precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4);
                                 oVehiculoCLS.estado = dr.IsDBNull(5) ? "" : dr.GetString(5);
                             }
+                        } else
+                        {
+                            oVehiculoCLS = null;
                         }
                     }
                 }

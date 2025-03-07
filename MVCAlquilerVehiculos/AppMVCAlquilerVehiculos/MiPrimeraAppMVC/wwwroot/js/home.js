@@ -1,6 +1,9 @@
 ﻿const carCarousel = document.querySelector(".carousel-car");
+const carLoadingSpinner = document.querySelector(".cars-loading-spinner");
+const formReserva = document.getElementById("form-reserva");
 
 function generarCarruselVehiculos() {
+    carLoadingSpinner.style.display = "block";
     fetchGet("Vehiculo/listarVehiculo", "json", (data) => {
         let content = ``;
         data.forEach((vehiculo) => {
@@ -16,7 +19,9 @@ function generarCarruselVehiculos() {
                             <p class="price ml-auto">$${vehiculo.precio} <span>/día</span></p>
                         </div>
                         <p class="d-flex mb-0 d-block">
-							<a href="#" class="btn btn-primary py-2 mr-1">Solicitar ahora</a>
+							<a onclick="${isUserSignedIn ? "reservarVehiculo(" + vehiculo.idVehiculo + ")" : ""}" href="${isUserSignedIn ? "javascript:void" : "/Identity/Account/Login"}" class="btn ${isUserSignedIn ? "btn-secondary" : "btn-primary"} py-2">
+								${isUserSignedIn ? "Solicitar ahora" : "Iniciar sesión para rentar"}
+							</a>
 						</p>
                     </div>
                 </div>
@@ -71,10 +76,66 @@ function generarCarruselVehiculos() {
 
 		};
 		carousel();
+
+        carLoadingSpinner.style.display = "none";
     });
+}
+
+
+function validarFormReserva() {
+    let isValid = true;
+    if (!formReserva.checkValidity()) {
+		isValid = false;
+
+		//https://codepen.io/resource/pen/qBNLKXR
+		setTimeout(() => {
+			var tmpSubmit = document.createElement('button');
+			formReserva.appendChild(tmpSubmit);
+			tmpSubmit.click();
+			formReserva.removeChild(tmpSubmit);
+		}, 500);
+	}
+
+    return isValid;
+}
+
+function reservarVehiculo(idVehiculo) {
+	if (validarFormReserva()) {
+		const datosCliente = {
+			nombre: formReserva.nombre.value,
+			apellido: formReserva.apellido.value,
+			telefono: formReserva.telefono.value,
+			email: formReserva.email.value,
+		}
+		const reserva = {
+			idVehiculo: idVehiculo,
+			fechaInicio: formReserva.fechaInicio.value,
+			fechaFin: formReserva.fechaFin.value,
+		};
+		const reqBody = {
+			datosCliente,
+			reserva
+		}
+		fetchPost("Reserva/crearReservaUsuario", "text", JSON.stringify(reqBody), (data) => {
+			if (data == 1) {
+                ExitoMsg("Reserva realizada con éxito");
+				formReserva.reset();
+			} else {
+				ErrorToast();
+			}
+		}, "application/json");
+	} else {
+		formReserva.scrollIntoView({
+			behavior: 'smooth',
+		});
+		ErrorToast("Por favor, complete el formulario de registro correctamente");
+	}
+}
+
+if (formReserva) {
+
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     generarCarruselVehiculos();
 });
-

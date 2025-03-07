@@ -1,6 +1,7 @@
 ﻿using System.Data.SqlClient;
 using System.Data;
 using CapaEntidad;
+using CapaEntidad.Interfaces;
 
 namespace CapaDatos
 {

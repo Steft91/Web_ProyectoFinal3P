@@ -66,6 +66,45 @@ namespace CapaDatos
             return oClienteCLS;
         }
 
+        public ClienteCLS? recuperarClienteFromUser(string userId)
+        {
+            ClienteCLS? oClienteCLS = new ClienteCLS();
+
+            using (SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("uspRecuperarClientesUserid", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@userId", userId);
+
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        if (dr.HasRows)
+                        {
+                            while (dr.Read())
+                            {
+                                oClienteCLS.idCliente = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
+                                oClienteCLS.nombre = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
+                                oClienteCLS.apellido = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
+                                oClienteCLS.telefono = dr.IsDBNull(1) ? string.Empty : dr.GetString(3);
+                                oClienteCLS.email = dr.IsDBNull(2) ? string.Empty : dr.GetString(4);
+                            }
+                        } else
+                        {
+                            oClienteCLS = null;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    cn.Close();
+                }
+            }
+            return oClienteCLS;
+        }
+
         public int GuardarCliente(ClienteCLS oClienteCLS)
         {
             int rpta = 0;
@@ -82,6 +121,7 @@ namespace CapaDatos
                         cmd.Parameters.AddWithValue("@apellido", oClienteCLS.apellido);
                         cmd.Parameters.AddWithValue("@telefono", oClienteCLS.telefono);
                         cmd.Parameters.AddWithValue("@email", oClienteCLS.email);
+                        cmd.Parameters.AddWithValue("@userId", oClienteCLS.userId == null ? DBNull.Value : oClienteCLS.userId);
 
                         rpta = cmd.ExecuteNonQuery();
                     }

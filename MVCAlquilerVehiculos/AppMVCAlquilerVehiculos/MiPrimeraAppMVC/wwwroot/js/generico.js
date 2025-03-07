@@ -29,13 +29,17 @@ async function fetchGet(url, tipoRespuesta, callback) {
     }
 }
 
-async function fetchPost(url, tipoRespuesta, frm, callback) {
+async function fetchPost(url, tipoRespuesta, frm, callback, tipoContenido = "application/x-www-form-urlencoded") {
     try {
         let raiz = document.getElementById("hdfOculto").value;
-        let urlCompleta = window.location.protocol+"//"+window.location.host+"/"+raiz+url;
+        let urlCompleta = window.location.protocol + "//" + window.location.host + "/" + raiz + url;
+
+        let headers = new Headers();
+        headers.append("Content-Type", tipoContenido);
 
         let res = await fetch(urlCompleta, {
             method: "POST",
+            headers: headers,
             body: frm
         });
 
@@ -241,6 +245,17 @@ function Confirmacion(titulo = "Confirmación", texto = "¿Desea guardar los cam
         if (result.isConfirmed && typeof callback === "function") {
             callback(); // Se ejecuta solo si es una función válida
         }
+    });
+}
+
+function ExitoMsg(titulo = "Operación exitosa", texto = "") {
+    Swal.fire({
+        icon: "success",
+        title: titulo,
+        text: texto,
+        showConfirmButton: false,
+        timer: 1500,
+        backdrop: false
     });
 }
 
