@@ -4,7 +4,7 @@
 
 };
 
-/////////////////////7
+/////////////////////
 //function establecerMinFechas() {
 //    let today = new Date().toISOString().split("T")[0]; // Obtener la fecha actual en formato YYYY-MM-DD
 //    document.getElementById("fechaInicio").setAttribute("min", today);
