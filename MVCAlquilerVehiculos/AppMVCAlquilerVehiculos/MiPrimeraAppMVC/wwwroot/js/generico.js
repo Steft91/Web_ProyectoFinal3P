@@ -190,7 +190,7 @@ function generarTabla(res) {
 }
 
 function recuperarGenerico(url, idFormulario) {
-    let elementosName = document.querySelectorAll("#" + idFormulario + "[name]");
+    let elementosName = document.querySelectorAll("#" + idFormulario + " [name]");
     let nombreName;
 
     fetchGet(url, "json", function (data) {
@@ -231,4 +231,47 @@ function Confirmacion(titulo = "Confirmación", texto = "¿Desea guardar los cam
             callback(); // Se ejecuta solo si es una función válida
         }
     });
+}
+
+
+function ExitoToast(msg = "Operación realizada con éxito") {
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-top-right",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+    toastr["success"](msg);
+}
+
+function ErrorToast(msg = "Ha ocurrido un error") {
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-top-right",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+    toastr["error"](msg);
 }

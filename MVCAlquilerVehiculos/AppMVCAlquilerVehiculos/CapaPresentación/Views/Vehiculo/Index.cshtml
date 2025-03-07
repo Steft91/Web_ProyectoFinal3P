@@ -4,61 +4,23 @@
 }
 
 <div class="container my-5">
-    <h1>Vehiculo</h1>
+    <h1>Vehículo</h1>
 
-    <fieldset>
-        <legend>Guardar Datos</legend>
-        <form id="frmGuardarVehiculo" class="row g-3">
-            <div class="col-md-6">
-                <label for="idVehiculo" class="form-label">ID Vehiculo</label>
-                <input type="text" class="form-control" name="idVehiculo" id="idVehiculo">
-            </div>
-            <div class="col-md-6">
-                <label for="marca" class="form-label">Marca</label>
-                <input type="text" class="form-control" name="marca" id="marca" placeholder="marca">
-            </div>
-            <div class="col-12">
-                <label for="modelo" class="form-label">Modelo</label>
-                <input type="text" class="form-control" id="modelo" name="modelo" placeholder="modelo">
-            </div><div class="col-md-6">
-                <label for="anio" class="form-label">Año</label>
-                <input type="text" class="form-control" name="anio" id="anio" placeholder="Año">
-            </div>
-            <div class="col-12">
-                <label for="precio" class="form-label">Precio</label>
-                <input type="text" class="form-control" id="precio" name="precio" placeholder="Precio">
-            </div>
-            <div class="col-12">
-                <label for="estado" class="form-label">Estado</label>
-                <input type="text" class="form-control" id="estado" name="estado" placeholder="estado">
-            </div>
-        </form>
-
-        <div class="row g-3">
-            <div class="d-grid gap-2">
-                <button type="button" class="btn btn-primary" onclick="GuardarVehiculo()" id="buttonGuardar">Guardar</button>
-                <button type="button" class="btn btn-danger" onclick="LimpiarVehiculo()">Limpiar</button>
-            </div>
-        </div>
-
-
-
-    </fieldset>
+    <button id="btnNuevoVehiculo" class="btn btn-primary">Nuevo Vehiculo</button>
 
     <div id="divTable">
     </div>
-
 </div>
 
-<div class="modal fade" id="modalActualizar" tabindex="-1" aria-labelledby="modalActualizarLabel" aria-hidden="true">
+<div class="modal fade" id="modalVehiculo" tabindex="-1" aria-labelledby="modalVehiculoLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalActualizarLabel">Actualizar Vehiculo</h5>
+                <h5 class="modal-title" id="modalVehiculoLabel">Actualizar Vehiculo</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmGuardarVehiculo">
+                <form id="frmVehiculo">
                     <input type="hidden" name="idVehiculo" id="idVehiculo">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Marca</label>
@@ -82,8 +44,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="listarVehiculo()">Cancelar</button>
-                <button class="btn btn-outline-secondary" type="button" onclick="GuardarVehiculo()" id="buttonGuardar">Guardar</button>
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
+                <button class="btn btn-secondary" type="button" onclick="GuardarVehiculo()" id="buttonGuardar">Guardar</button>
             </div>
         </div>
     </div>

@@ -8,5 +8,6 @@
         public int anio { get; set; }
         public double precio { get; set; }
         public string estado { get; set; }
+        public byte[] imagen { get; set; }
     }
 }

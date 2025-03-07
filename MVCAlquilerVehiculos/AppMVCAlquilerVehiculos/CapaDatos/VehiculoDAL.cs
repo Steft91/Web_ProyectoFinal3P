@@ -123,7 +123,8 @@ namespace CapaDatos
                                     modelo = dr.IsDBNull(2) ? "" : dr.GetString(2),
                                     anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3),
                                     precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4),
-                                    estado = dr.IsDBNull(5) ? "" : dr.GetString(5)
+                                    estado = dr.IsDBNull(5) ? "" : dr.GetString(5),
+                                    imagen = dr.IsDBNull(6) ? Array.Empty<byte>() : (byte[])dr["Image"]
                                 };
 
                                 lista.Add(oVehiculoCLS);

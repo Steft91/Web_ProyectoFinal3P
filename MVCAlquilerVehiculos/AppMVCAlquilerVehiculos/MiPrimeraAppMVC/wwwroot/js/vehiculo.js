@@ -37,47 +37,47 @@ function Buscar() {
 
 const idVehiculoInput = document.getElementById("idVehiculo");
 const guardarBtn = document.getElementById("buttonGuardar");
+const modalTitle = document.getElementById("modalVehiculoLabel");
+
+
+document.getElementById("btnNuevoVehiculo").addEventListener("click", function () {
+    LimpiarVehiculo();
+    guardarBtn.innerText = "Crear";
+    modalTitle.innerText = "Nuevo Vehículo";
+    idVehiculoInput.value = "";
+
+    $("#modalVehiculo").modal("show");
+});
 
 function GuardarVehiculo() {
-    const frmGuardar = new FormData(document.getElementById("frmGuardarVehiculo"));
+    const frmGuardar = new FormData(document.getElementById("frmVehiculo"));
 
     const callback = (res) => {
         const resInt = parseInt(res);
         if (resInt == 1) {
             listarVehiculo();
-            LimpiarDatos("frmGuardarVehiculo");
+            LimpiarDatos("frmVehiculo");
+            $("#modalVehiculo").modal("hide");
 
-            // Cerrar el modal después de actualizar
-            $("#modalActualizar").modal("hide");
+            ExitoToast("Registro guardado con éxito");
+        } else {
+            ErrorToast();
         }
     };
 
-    Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
-        if (idVehiculoInput.value != "") {
+    
+    if (idVehiculoInput.value != "") {
+        Confirmacion("Confirmación", "¿Desea guardar los cambios?", function () {
             fetchPut("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
-        } else {
-            fetchPost("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
-        }
-    });
-    //const frm = new FormData(document.getElementById("frmGuardarVehiculo"));
-    //const callback = (res) => {
-    //    const resInt = parseInt(res);
-    //    if (resInt == 1) {
-    //        listarVehiculo();
-    //        LimpiarDatos("frmGuardarVehiculo");
-    //    }
-    //}
-
-    //if (idVehiculoInput.value != "") {
-    //    fetchPut("Vehiculo/GuardarVehiculo", "text", frm, callback);
-    //} else {
-    //    fetchPost("Vehiculo/GuardarVehiculo", "text", frm, callback);
-    //}
+        });
+    } else {
+        fetchPost("Vehiculo/GuardarVehiculo", "text", frmGuardar, callback);
+    }
 }
 
 function nuevoVehiculo() {
     LimpiarVehiculo();
-    modalActualizar.show();
+    modalVehiculo.show();
 }
 
 function Exito() {
@@ -91,61 +91,17 @@ function Exito() {
 }
 
 function LimpiarVehiculo() {
-    LimpiarDatos("frmGuardarVehiculo");
-    guardarBtn.innerText = "Guardar";
-
+    LimpiarDatos("frmVehiculo");
 }
 
-function Editar(id) {
-    fetchGet("Vehiculo/recuperarVehiculo/?idVehiculo=" + id, "json", function (data) {
-        if (data) {
-            console.log("Datos recuperados:", data);
+async function Editar(id) {
+    LimpiarVehiculo();
 
-            document.getElementById("idVehiculo").value = data.idVehiculo || "";
-            document.getElementById("marca").value = data.marca || "";
-            document.getElementById("modelo").value = data.modelo || "";
-            document.getElementById("anio").value = data.anio || "";
-            document.getElementById("precio").value = data.precio || "";
-            document.getElementById("estado").value = data.estado || "";
+    recuperarGenerico("Vehiculo/recuperarVehiculo/?idVehiculo=" + id, "frmVehiculo");
 
-            document.querySelector("#modalActualizar #idVehiculo").value = data.idVehiculo || "";
-            document.querySelector("#modalActualizar #marca").value = data.marca || "";
-            document.querySelector("#modalActualizar #modelo").value = data.modelo || "";
-            document.querySelector("#modalActualizar #anio").value = data.anio || "";
-            document.querySelector("#modalActualizar #precio").value = data.precio || "";
-            document.querySelector("#modalActualizar #estado").value = data.estado || "";
-
-            document.getElementById("marca").dispatchEvent(new Event('input'));
-            document.getElementById("modelo").dispatchEvent(new Event('input'));
-            document.getElementById("anio").dispatchEvent(new Event('input'));
-            document.getElementById("precio").dispatchEvent(new Event('input'));
-            document.getElementById("estado").dispatchEvent(new Event('input'));
-
-            document.querySelector("#modalActualizar #marca").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #modelo").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #anio").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #precio").dispatchEvent(new Event('input'));
-            document.querySelector("#modalActualizar #estado").dispatchEvent(new Event('input'));
-
-            guardarBtn.innerText = "Actualizar";
-
-            $("#modalActualizar").modal("show");
-        } else {
-            alert("No se pudo recuperar la información del vehiculo.");
-        }
-    });
-
-    //guardarBtn.innerText = "Actualizar";
-    ////recuperarGenerico("TipoMedicamento/recuperarTipoMedicamento/?idTipoMedicamento=" + id,"frmGuardarTipoMedicamento");
-    //fetchGet("Vehiculo/recuperarVehiculo/?idVehiculo=" + id, "json", function (data) {
-    //    setN("idVehiculo", data.idVehiculo)
-    //    setN("marca", data.marca)
-    //    setN("modelo", data.modelo)
-    //    setN("anio", data.anio)
-    //    setN("precio", data.precio)
-    //    setN("estado", data.estado)
-
-    //});
+    guardarBtn.innerText = "Actualizar";
+    modalTitle.innerText = "Actualizar Vehículo";
+    $("#modalVehiculo").modal("show");
 }
 
 function Eliminar(id) {
@@ -156,8 +112,8 @@ function Eliminar(id) {
                 listarVehiculo();
                 LimpiarDatos();
 
-                if ($("#modalActualizar").length > 0) {
-                    $("#modalActualizar").modal("hide");
+                if ($("#modalVehiculo").length > 0) {
+                    $("#modalVehiculo").modal("hide");
                 }
 
                 Swal.fire("Eliminado", "El vehiculo se eliminó correctamente", "success");
