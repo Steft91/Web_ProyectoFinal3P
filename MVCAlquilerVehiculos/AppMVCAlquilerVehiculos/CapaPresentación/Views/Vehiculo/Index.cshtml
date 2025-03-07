@@ -20,7 +20,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="frmVehiculo">
+                <form id="frmVehiculo" enctype="multipart/form-data">
                     <input type="hidden" name="idVehiculo" id="idVehiculo">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Marca</label>
@@ -40,6 +40,10 @@
                     <div class="mb-3">
                         <label for="descripcion" class="form-label">estado</label>
                         <input type="text" name="estado" class="form-control" id="estado" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="imagen" class="form-label">Imagen</label>
+                        <input type="file" accept="image/png, image/jpeg" name="imagen" class="form-control" id="imagen" value="">
                     </div>
                 </form>
             </div>

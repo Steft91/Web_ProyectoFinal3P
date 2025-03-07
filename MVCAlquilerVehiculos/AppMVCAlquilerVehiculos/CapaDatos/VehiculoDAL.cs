@@ -87,6 +87,7 @@ namespace CapaDatos
                         cmd.Parameters.AddWithValue("@anio", oVehiculoCLS.anio);
                         cmd.Parameters.AddWithValue("@precio", oVehiculoCLS.precio);
                         cmd.Parameters.AddWithValue("@estado", oVehiculoCLS.estado);
+                        cmd.Parameters.AddWithValue("@imagen", oVehiculoCLS.imagen);
 
                         rpta = cmd.ExecuteNonQuery();
                     }
@@ -124,7 +125,7 @@ namespace CapaDatos
                                     anio = dr.IsDBNull(3) ? 0 : dr.GetInt32(3),
                                     precio = dr.IsDBNull(4) ? 0 : (double)dr.GetDecimal(4),
                                     estado = dr.IsDBNull(5) ? "" : dr.GetString(5),
-                                    imagen = dr.IsDBNull(6) ? Array.Empty<byte>() : (byte[])dr["Image"]
+                                    imagen = dr.IsDBNull(6) ? Array.Empty<byte>() : (byte[])dr["Imagen"]
                                 };
 
                                 lista.Add(oVehiculoCLS);
