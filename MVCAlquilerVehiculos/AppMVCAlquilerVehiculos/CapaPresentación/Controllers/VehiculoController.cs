@@ -15,7 +15,6 @@ namespace CapaPresentacion.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Empleado")]
         public List<VehiculoCLS> listarVehiculo()
         {
             VehiculoDAL obj = new VehiculoDAL();

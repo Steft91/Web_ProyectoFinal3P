@@ -164,7 +164,7 @@ function generarTabla(res) {
             const esImagen = objConfiguracionGlobal.propiedadesImg != undefined && objConfiguracionGlobal.propiedadesImg.includes(propiedadActual);
             if (esImagen) {
                 if (obj[propiedadActual] != "") {
-                    contenido += "<td><img src='data:image/png;base64," + obj[propiedadActual] + "' width='60' height='60' /></td>";
+                    contenido += "<td><img src='data:image/png;base64," + obj[propiedadActual] + "' width='auto' height='70' /></td>";
                 } else {
                     contenido += "<td>(Vacío)</td>";
                 }
